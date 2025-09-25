@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 7dbe759d843168e47a82bfbda22bd197
+timeCreated: 1519999257
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118468
+  packageName: RPG Medieval Kingdom Kit
+  packageVersion: '2.0 '
+  assetPath: Assets/beffio/Medieval Kingdom/Content/Materials/Stones/Stone_11.mat
+  uploadId: 321233

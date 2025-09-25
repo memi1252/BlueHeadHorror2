@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: c358942b89a70b548bb0a8249440f8dd
+timeCreated: 1523365077
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118468
+  packageName: RPG Medieval Kingdom Kit
+  packageVersion: '2.0 '
+  assetPath: Assets/beffio/Medieval Kingdom/Content/Prefabs/Buildings/ModularElements/Decoration/Module_01
+    (1).prefab
+  uploadId: 321233

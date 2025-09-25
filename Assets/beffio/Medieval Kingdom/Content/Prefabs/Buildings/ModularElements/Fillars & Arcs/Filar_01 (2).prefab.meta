@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: a3b64c016708e1d4f9dd9f2c214c0523
+timeCreated: 1523364921
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118468
+  packageName: RPG Medieval Kingdom Kit
+  packageVersion: '2.0 '
+  assetPath: Assets/beffio/Medieval Kingdom/Content/Prefabs/Buildings/ModularElements/Fillars
+    & Arcs/Filar_01 (2).prefab
+  uploadId: 321233

@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 3a4de85b1902f24439783c766b8ca1fa
+timeCreated: 1523276595
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118468
+  packageName: RPG Medieval Kingdom Kit
+  packageVersion: '2.0 '
+  assetPath: Assets/beffio/Medieval Kingdom/Content/Materials/Well_bucket/Water_bucket.mat
+  uploadId: 321233

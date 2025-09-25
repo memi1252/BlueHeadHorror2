@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: cbfde1ba1230bd8458df745755d6ac19
+timeCreated: 1519903537
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118468
+  packageName: RPG Medieval Kingdom Kit
+  packageVersion: '2.0 '
+  assetPath: Assets/beffio/Medieval Kingdom/Content/Materials/House_04_materials/House_4_Wall_2.mat
+  uploadId: 321233

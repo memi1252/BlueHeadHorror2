@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 7a3ef7ca0ef9e994bbb53fa2a12ac012
+timeCreated: 1523345277
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118468
+  packageName: RPG Medieval Kingdom Kit
+  packageVersion: '2.0 '
+  assetPath: Assets/beffio/Medieval Kingdom/Content/Prefabs/Vegetation/Bushes/Bush_01g.prefab
+  uploadId: 321233

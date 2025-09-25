@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: efbc96e7b40a60e4b8169be4bd63db8e
+timeCreated: 1520434094
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118468
+  packageName: RPG Medieval Kingdom Kit
+  packageVersion: '2.0 '
+  assetPath: Assets/beffio/Medieval Kingdom/Content/Materials/Food/Pumpkin.mat
+  uploadId: 321233

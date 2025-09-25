@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 34097cd1aa983074d9b86864f807b225
+timeCreated: 1523351779
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118468
+  packageName: RPG Medieval Kingdom Kit
+  packageVersion: '2.0 '
+  assetPath: Assets/beffio/Medieval Kingdom/Content/Prefabs/Buildings/ModularElements/Roofs/Roof_wide_04.prefab
+  uploadId: 321233

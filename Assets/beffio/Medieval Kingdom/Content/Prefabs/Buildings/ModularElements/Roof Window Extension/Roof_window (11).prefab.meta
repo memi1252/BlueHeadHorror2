@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 4c467d7283f93c74d8d106295f50384b
+timeCreated: 1523365057
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118468
+  packageName: RPG Medieval Kingdom Kit
+  packageVersion: '2.0 '
+  assetPath: Assets/beffio/Medieval Kingdom/Content/Prefabs/Buildings/ModularElements/Roof
+    Window Extension/Roof_window (11).prefab
+  uploadId: 321233

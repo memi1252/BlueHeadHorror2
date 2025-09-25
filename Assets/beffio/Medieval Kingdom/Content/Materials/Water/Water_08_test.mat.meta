@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 3327a5d78a893c64d86218431aacf478
+timeCreated: 1523276595
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118468
+  packageName: RPG Medieval Kingdom Kit
+  packageVersion: '2.0 '
+  assetPath: Assets/beffio/Medieval Kingdom/Content/Materials/Water/Water_08_test.mat
+  uploadId: 321233

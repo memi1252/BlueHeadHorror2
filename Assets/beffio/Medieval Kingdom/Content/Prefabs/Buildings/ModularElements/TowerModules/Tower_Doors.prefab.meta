@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: b0a6e157693cfaa4db4cde4d2ffb5379
+timeCreated: 1523877518
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118468
+  packageName: RPG Medieval Kingdom Kit
+  packageVersion: '2.0 '
+  assetPath: Assets/beffio/Medieval Kingdom/Content/Prefabs/Buildings/ModularElements/TowerModules/Tower_Doors.prefab
+  uploadId: 321233

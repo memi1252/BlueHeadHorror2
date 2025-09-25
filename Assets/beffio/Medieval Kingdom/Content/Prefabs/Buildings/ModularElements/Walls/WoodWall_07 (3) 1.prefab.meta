@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 3e3395c88779e3545b3b68485854c32e
+timeCreated: 1523365307
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118468
+  packageName: RPG Medieval Kingdom Kit
+  packageVersion: '2.0 '
+  assetPath: Assets/beffio/Medieval Kingdom/Content/Prefabs/Buildings/ModularElements/Walls/WoodWall_07
+    (3) 1.prefab
+  uploadId: 321233

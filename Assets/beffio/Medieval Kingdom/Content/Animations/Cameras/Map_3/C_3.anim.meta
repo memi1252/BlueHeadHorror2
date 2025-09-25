@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 0c125b1e2a7aa7f449a86b03b025aa24
+timeCreated: 1525861289
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118468
+  packageName: RPG Medieval Kingdom Kit
+  packageVersion: '2.0 '
+  assetPath: Assets/beffio/Medieval Kingdom/Content/Animations/Cameras/Map_3/C_3.anim
+  uploadId: 321233

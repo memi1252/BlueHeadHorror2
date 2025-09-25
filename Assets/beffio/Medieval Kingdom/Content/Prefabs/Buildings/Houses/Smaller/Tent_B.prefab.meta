@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: f74166a573ef3b147bd8159523c9c6aa
+timeCreated: 1523016476
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118468
+  packageName: RPG Medieval Kingdom Kit
+  packageVersion: '2.0 '
+  assetPath: Assets/beffio/Medieval Kingdom/Content/Prefabs/Buildings/Houses/Smaller/Tent_B.prefab
+  uploadId: 321233

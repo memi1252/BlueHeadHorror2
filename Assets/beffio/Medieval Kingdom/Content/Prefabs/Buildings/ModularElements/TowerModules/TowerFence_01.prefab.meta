@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: aee512ff765fac84ab42418677d7165a
+timeCreated: 1523877498
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118468
+  packageName: RPG Medieval Kingdom Kit
+  packageVersion: '2.0 '
+  assetPath: Assets/beffio/Medieval Kingdom/Content/Prefabs/Buildings/ModularElements/TowerModules/TowerFence_01.prefab
+  uploadId: 321233

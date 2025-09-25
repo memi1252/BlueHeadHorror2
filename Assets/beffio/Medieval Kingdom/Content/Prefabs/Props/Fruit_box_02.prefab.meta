@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: cd11f13ef4965e745821918d680e98cc
+timeCreated: 1523283154
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118468
+  packageName: RPG Medieval Kingdom Kit
+  packageVersion: '2.0 '
+  assetPath: Assets/beffio/Medieval Kingdom/Content/Prefabs/Props/Fruit_box_02.prefab
+  uploadId: 321233

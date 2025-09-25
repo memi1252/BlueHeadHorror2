@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: b71395aa6e8543e4a945fe81425f7326
+timeCreated: 1523877510
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118468
+  packageName: RPG Medieval Kingdom Kit
+  packageVersion: '2.0 '
+  assetPath: Assets/beffio/Medieval Kingdom/Content/Prefabs/Buildings/ModularElements/TowerModules/TowerWalls_02.prefab
+  uploadId: 321233

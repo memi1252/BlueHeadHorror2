@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 21dabeeb5ec2f264a8b299d304e8bd43
+timeCreated: 1523541750
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118468
+  packageName: RPG Medieval Kingdom Kit
+  packageVersion: '2.0 '
+  assetPath: Assets/beffio/Medieval Kingdom/Content/Prefabs/Buildings/ModularElements/Doors/Wooden_doors
+    (1).prefab
+  uploadId: 321233

@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: c3f87db3cdeb87b40a9c6e2a25caa674
+timeCreated: 1523275527
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118468
+  packageName: RPG Medieval Kingdom Kit
+  packageVersion: '2.0 '
+  assetPath: Assets/beffio/Medieval Kingdom/Content/Prefabs/Vegetation/Trees/MediumTree_2_Orange.prefab
+  uploadId: 321233

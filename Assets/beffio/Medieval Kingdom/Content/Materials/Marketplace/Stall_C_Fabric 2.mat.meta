@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: d81fbe46e73825f4f876cd2327272158
+timeCreated: 1520342926
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118468
+  packageName: RPG Medieval Kingdom Kit
+  packageVersion: '2.0 '
+  assetPath: Assets/beffio/Medieval Kingdom/Content/Materials/Marketplace/Stall_C_Fabric
+    2.mat
+  uploadId: 321233

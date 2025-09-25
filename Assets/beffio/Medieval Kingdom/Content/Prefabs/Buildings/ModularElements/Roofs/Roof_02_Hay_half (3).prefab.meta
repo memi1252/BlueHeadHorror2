@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: dc025feefda70f640a7733ecbc87d68e
+timeCreated: 1523628430
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118468
+  packageName: RPG Medieval Kingdom Kit
+  packageVersion: '2.0 '
+  assetPath: Assets/beffio/Medieval Kingdom/Content/Prefabs/Buildings/ModularElements/Roofs/Roof_02_Hay_half
+    (3).prefab
+  uploadId: 321233

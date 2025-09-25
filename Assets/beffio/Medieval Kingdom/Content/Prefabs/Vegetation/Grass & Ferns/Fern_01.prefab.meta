@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: dcb4ab6ab8316a5468958d7074bd3750
+timeCreated: 1523284825
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118468
+  packageName: RPG Medieval Kingdom Kit
+  packageVersion: '2.0 '
+  assetPath: Assets/beffio/Medieval Kingdom/Content/Prefabs/Vegetation/Grass & Ferns/Fern_01.prefab
+  uploadId: 321233

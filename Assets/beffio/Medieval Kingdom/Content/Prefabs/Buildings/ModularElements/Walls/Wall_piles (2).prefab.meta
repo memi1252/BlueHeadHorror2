@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 0ac770d500710ed42992e8b34cf4eb04
+timeCreated: 1523360205
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118468
+  packageName: RPG Medieval Kingdom Kit
+  packageVersion: '2.0 '
+  assetPath: Assets/beffio/Medieval Kingdom/Content/Prefabs/Buildings/ModularElements/Walls/Wall_piles
+    (2).prefab
+  uploadId: 321233

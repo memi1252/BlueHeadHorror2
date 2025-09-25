@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 59d6ac37dab8fd94eb6d018bbe26e424
+timeCreated: 1526646376
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118468
+  packageName: RPG Medieval Kingdom Kit
+  packageVersion: '2.0 '
+  assetPath: Assets/beffio/Medieval Kingdom/Content/Prefabs/Buildings/ModularElements/Roofs/Roof_LODs/Roof_01_half_flaten.prefab
+  uploadId: 321233

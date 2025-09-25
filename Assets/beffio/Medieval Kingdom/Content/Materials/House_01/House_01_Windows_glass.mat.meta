@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 706a6471969f60e4a89976bb8e818241
+timeCreated: 1520264068
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118468
+  packageName: RPG Medieval Kingdom Kit
+  packageVersion: '2.0 '
+  assetPath: Assets/beffio/Medieval Kingdom/Content/Materials/House_01/House_01_Windows_glass.mat
+  uploadId: 321233

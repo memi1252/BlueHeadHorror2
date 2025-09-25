@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: df70b55ce3d06764ca7b3f98c5ba29e6
+timeCreated: 1523364921
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118468
+  packageName: RPG Medieval Kingdom Kit
+  packageVersion: '2.0 '
+  assetPath: Assets/beffio/Medieval Kingdom/Content/Prefabs/Buildings/ModularElements/Chimney/Chimney_rock
+    (3).prefab
+  uploadId: 321233

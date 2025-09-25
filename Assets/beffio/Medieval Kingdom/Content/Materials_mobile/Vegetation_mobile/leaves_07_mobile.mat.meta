@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 1e463036a69e19849b9f42cd893b3f10
+timeCreated: 1519635082
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118468
+  packageName: RPG Medieval Kingdom Kit
+  packageVersion: '2.0 '
+  assetPath: Assets/beffio/Medieval Kingdom/Content/Materials_mobile/Vegetation_mobile/leaves_07_mobile.mat
+  uploadId: 321233

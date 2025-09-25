@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 97a1e45169ceeaa4f86b77cf10d20572
+timeCreated: 1523282562
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118468
+  packageName: RPG Medieval Kingdom Kit
+  packageVersion: '2.0 '
+  assetPath: Assets/beffio/Medieval Kingdom/Content/Prefabs/Props/Shed_plank_A.prefab
+  uploadId: 321233

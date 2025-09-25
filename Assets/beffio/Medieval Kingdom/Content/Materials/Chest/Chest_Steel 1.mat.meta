@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: c32402254e03f854db313ed2b84d8ac7
+timeCreated: 1519743380
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118468
+  packageName: RPG Medieval Kingdom Kit
+  packageVersion: '2.0 '
+  assetPath: Assets/beffio/Medieval Kingdom/Content/Materials/Chest/Chest_Steel 1.mat
+  uploadId: 321233

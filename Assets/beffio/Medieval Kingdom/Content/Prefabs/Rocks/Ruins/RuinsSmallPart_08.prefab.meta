@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: ed90f27bd8becee4eb6af22b3eef4a51
+timeCreated: 1523278509
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118468
+  packageName: RPG Medieval Kingdom Kit
+  packageVersion: '2.0 '
+  assetPath: Assets/beffio/Medieval Kingdom/Content/Prefabs/Rocks/Ruins/RuinsSmallPart_08.prefab
+  uploadId: 321233

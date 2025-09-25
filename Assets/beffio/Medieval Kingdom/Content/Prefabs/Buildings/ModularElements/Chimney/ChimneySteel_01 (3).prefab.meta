@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: b47943d5c7276d04a84a4468fa823767
+timeCreated: 1523368748
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118468
+  packageName: RPG Medieval Kingdom Kit
+  packageVersion: '2.0 '
+  assetPath: Assets/beffio/Medieval Kingdom/Content/Prefabs/Buildings/ModularElements/Chimney/ChimneySteel_01
+    (3).prefab
+  uploadId: 321233

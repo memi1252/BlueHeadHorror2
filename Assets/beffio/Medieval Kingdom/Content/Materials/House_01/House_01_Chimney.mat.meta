@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: bae5debc9df848e44923332d9a949346
+timeCreated: 1520264068
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118468
+  packageName: RPG Medieval Kingdom Kit
+  packageVersion: '2.0 '
+  assetPath: Assets/beffio/Medieval Kingdom/Content/Materials/House_01/House_01_Chimney.mat
+  uploadId: 321233

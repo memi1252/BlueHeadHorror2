@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 17a119eab77c891429144ce104febbeb
+timeCreated: 1529171135
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 25800000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118468
+  packageName: RPG Medieval Kingdom Kit
+  packageVersion: '2.0 '
+  assetPath: Assets/beffio/Medieval Kingdom/Scenes/Mobile&VR/Maps/Map (3) mobile/LightingData.asset
+  uploadId: 321233

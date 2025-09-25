@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 47d5932d64a1fdc4dbfd8e33e242e427
+timeCreated: 1520434094
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118468
+  packageName: RPG Medieval Kingdom Kit
+  packageVersion: '2.0 '
+  assetPath: Assets/beffio/Medieval Kingdom/Content/Materials/Food/Carrot.mat
+  uploadId: 321233

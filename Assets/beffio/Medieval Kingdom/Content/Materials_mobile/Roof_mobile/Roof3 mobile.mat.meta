@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 2d9dd1c56c6b1794dbc6cca6999a4acd
+timeCreated: 1520264068
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118468
+  packageName: RPG Medieval Kingdom Kit
+  packageVersion: '2.0 '
+  assetPath: Assets/beffio/Medieval Kingdom/Content/Materials_mobile/Roof_mobile/Roof3
+    mobile.mat
+  uploadId: 321233

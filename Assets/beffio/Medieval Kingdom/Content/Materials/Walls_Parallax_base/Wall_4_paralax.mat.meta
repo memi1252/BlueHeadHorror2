@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a0010ef523e17984692cfdb1737043ec
+timeCreated: 1481127068
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118468
+  packageName: RPG Medieval Kingdom Kit
+  packageVersion: '2.0 '
+  assetPath: Assets/beffio/Medieval Kingdom/Content/Materials/Walls_Parallax_base/Wall_4_paralax.mat
+  uploadId: 321233

@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 9e4a0575875cf5e4baf16fa801ea6878
+timeCreated: 1519662793
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118468
+  packageName: RPG Medieval Kingdom Kit
+  packageVersion: '2.0 '
+  assetPath: Assets/beffio/Medieval Kingdom/Content/Materials_mobile/Ruins_mobile/Ruins05_mobile.mat
+  uploadId: 321233

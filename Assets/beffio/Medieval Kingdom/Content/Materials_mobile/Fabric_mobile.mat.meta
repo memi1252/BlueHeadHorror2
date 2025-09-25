@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 423ac581c1abd31408a0fab1b0438c43
+timeCreated: 1519910637
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118468
+  packageName: RPG Medieval Kingdom Kit
+  packageVersion: '2.0 '
+  assetPath: Assets/beffio/Medieval Kingdom/Content/Materials_mobile/Fabric_mobile.mat
+  uploadId: 321233

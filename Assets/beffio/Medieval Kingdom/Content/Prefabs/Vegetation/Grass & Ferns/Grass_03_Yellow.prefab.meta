@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: a7af49466fdbbc2428df144a47b59b2b
+timeCreated: 1523284570
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118468
+  packageName: RPG Medieval Kingdom Kit
+  packageVersion: '2.0 '
+  assetPath: Assets/beffio/Medieval Kingdom/Content/Prefabs/Vegetation/Grass & Ferns/Grass_03_Yellow.prefab
+  uploadId: 321233

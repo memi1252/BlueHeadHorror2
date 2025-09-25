@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: d52b45df7bf5b3f409fe5a20812c81ef
+timeCreated: 1523365116
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118468
+  packageName: RPG Medieval Kingdom Kit
+  packageVersion: '2.0 '
+  assetPath: Assets/beffio/Medieval Kingdom/Content/Prefabs/Buildings/ModularElements/Market/MarketRoofs
+    (4).prefab
+  uploadId: 321233

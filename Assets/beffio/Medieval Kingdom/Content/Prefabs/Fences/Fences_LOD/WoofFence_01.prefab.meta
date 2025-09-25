@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 2746cdf60173ccf40a47fb22fd2306a4
+timeCreated: 1529069699
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118468
+  packageName: RPG Medieval Kingdom Kit
+  packageVersion: '2.0 '
+  assetPath: Assets/beffio/Medieval Kingdom/Content/Prefabs/Fences/Fences_LOD/WoofFence_01.prefab
+  uploadId: 321233

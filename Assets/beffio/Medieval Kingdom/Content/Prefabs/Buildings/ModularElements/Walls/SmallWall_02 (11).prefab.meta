@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 381e0ffff94a32d40a58f4205dce8c60
+timeCreated: 1523359946
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118468
+  packageName: RPG Medieval Kingdom Kit
+  packageVersion: '2.0 '
+  assetPath: Assets/beffio/Medieval Kingdom/Content/Prefabs/Buildings/ModularElements/Walls/SmallWall_02
+    (11).prefab
+  uploadId: 321233

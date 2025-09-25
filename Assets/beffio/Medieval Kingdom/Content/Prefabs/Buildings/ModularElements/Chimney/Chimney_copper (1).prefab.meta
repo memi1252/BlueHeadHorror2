@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: df22b8d71e18ca642a89e534e3f962f4
+timeCreated: 1523364921
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118468
+  packageName: RPG Medieval Kingdom Kit
+  packageVersion: '2.0 '
+  assetPath: Assets/beffio/Medieval Kingdom/Content/Prefabs/Buildings/ModularElements/Chimney/Chimney_copper
+    (1).prefab
+  uploadId: 321233

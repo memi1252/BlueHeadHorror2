@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 4e886d5bfdfb14e4ba4416fefe475331
+timeCreated: 1523361272
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118468
+  packageName: RPG Medieval Kingdom Kit
+  packageVersion: '2.0 '
+  assetPath: Assets/beffio/Medieval Kingdom/Content/Prefabs/Buildings/ModularElements/Decoration/Window_flowers_A
+    (1).prefab
+  uploadId: 321233

@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 6815bbf973b30b4408148fa670aec10f
+timeCreated: 1519378473
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118468
+  packageName: RPG Medieval Kingdom Kit
+  packageVersion: '2.0 '
+  assetPath: Assets/beffio/Medieval Kingdom/Content/Materials_mobile/Trees_mobile/Tree_02_mobile.mat
+  uploadId: 321233

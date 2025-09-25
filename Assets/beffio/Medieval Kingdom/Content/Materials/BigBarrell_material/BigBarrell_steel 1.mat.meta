@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 021d5661eca81ab4eb1e9cb0ae1ea11e
+timeCreated: 1519833095
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118468
+  packageName: RPG Medieval Kingdom Kit
+  packageVersion: '2.0 '
+  assetPath: Assets/beffio/Medieval Kingdom/Content/Materials/BigBarrell_material/BigBarrell_steel
+    1.mat
+  uploadId: 321233

@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 616aac05634d42f4cb5c3695f1f2ee0c
+timeCreated: 1481127068
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118468
+  packageName: RPG Medieval Kingdom Kit
+  packageVersion: '2.0 '
+  assetPath: Assets/beffio/Medieval Kingdom/Content/Materials/Window_Flowers/Flower_ground.mat
+  uploadId: 321233

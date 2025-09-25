@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 9529283d1479ad64da35bfb6d95366f6
+timeCreated: 1519818176
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118468
+  packageName: RPG Medieval Kingdom Kit
+  packageVersion: '2.0 '
+  assetPath: Assets/beffio/Medieval Kingdom/Content/Materials/House_04_materials/House_4_wood
+    2.mat
+  uploadId: 321233

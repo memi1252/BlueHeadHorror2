@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 5888359921e54f84eb3e0f8915ee7800
+timeCreated: 1520264068
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118468
+  packageName: RPG Medieval Kingdom Kit
+  packageVersion: '2.0 '
+  assetPath: Assets/beffio/Medieval Kingdom/Content/Materials/House_01/House_01_roof
+    3.mat
+  uploadId: 321233

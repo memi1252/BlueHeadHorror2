@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 49aaa196452f4b7458ff1bae520ff446
+timeCreated: 1523349852
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118468
+  packageName: RPG Medieval Kingdom Kit
+  packageVersion: '2.0 '
+  assetPath: Assets/beffio/Medieval Kingdom/Content/Prefabs/Vegetation/Ivys/Ivy_02a.prefab
+  uploadId: 321233

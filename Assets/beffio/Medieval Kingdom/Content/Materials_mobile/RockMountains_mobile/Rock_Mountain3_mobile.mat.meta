@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 78b5fa960eb22e346b6a3ef8f5d0e51b
+timeCreated: 1519985450
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118468
+  packageName: RPG Medieval Kingdom Kit
+  packageVersion: '2.0 '
+  assetPath: Assets/beffio/Medieval Kingdom/Content/Materials_mobile/RockMountains_mobile/Rock_Mountain3_mobile.mat
+  uploadId: 321233

@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 6dc7d07084bd334448ae31cd49c70205
+timeCreated: 1523283384
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118468
+  packageName: RPG Medieval Kingdom Kit
+  packageVersion: '2.0 '
+  assetPath: Assets/beffio/Medieval Kingdom/Content/Prefabs/Props/Bread_C.prefab
+  uploadId: 321233

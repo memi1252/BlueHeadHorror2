@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: d9ed30fd2e5b7bd4183b909bcc03b01a
+timeCreated: 1523357735
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118468
+  packageName: RPG Medieval Kingdom Kit
+  packageVersion: '2.0 '
+  assetPath: Assets/beffio/Medieval Kingdom/Content/Prefabs/Buildings/ModularElements/Decoration/Wall_Lamp
+    (2).prefab
+  uploadId: 321233

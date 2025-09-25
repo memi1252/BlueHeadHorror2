@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 00c478cd08a25624e9fb4d251901c64e
+timeCreated: 1523459407
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118468
+  packageName: RPG Medieval Kingdom Kit
+  packageVersion: '2.0 '
+  assetPath: Assets/beffio/Medieval Kingdom/Content/Materials_mobile/Stone_bridge_01
+    mobile.mat
+  uploadId: 321233

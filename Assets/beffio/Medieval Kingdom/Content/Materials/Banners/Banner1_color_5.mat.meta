@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 1002ef07f6103044e8c61b5b576cd950
+timeCreated: 1519818176
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118468
+  packageName: RPG Medieval Kingdom Kit
+  packageVersion: '2.0 '
+  assetPath: Assets/beffio/Medieval Kingdom/Content/Materials/Banners/Banner1_color_5.mat
+  uploadId: 321233

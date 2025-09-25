@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 490f99078d3f2014581454478023c31a
+timeCreated: 1519378473
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118468
+  packageName: RPG Medieval Kingdom Kit
+  packageVersion: '2.0 '
+  assetPath: Assets/beffio/Medieval Kingdom/Content/Materials/Leaves/Leaves_01a.mat
+  uploadId: 321233

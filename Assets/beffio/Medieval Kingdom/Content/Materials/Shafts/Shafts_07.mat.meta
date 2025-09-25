@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 2c2668785609eb44186fb68377306e37
+timeCreated: 1523366830
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118468
+  packageName: RPG Medieval Kingdom Kit
+  packageVersion: '2.0 '
+  assetPath: Assets/beffio/Medieval Kingdom/Content/Materials/Shafts/Shafts_07.mat
+  uploadId: 321233

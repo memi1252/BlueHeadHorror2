@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: a162503e563fe48439646f2a8c3c4953
+timeCreated: 1523539661
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118468
+  packageName: RPG Medieval Kingdom Kit
+  packageVersion: '2.0 '
+  assetPath: Assets/beffio/Medieval Kingdom/Content/Prefabs/Buildings/ModularElements/Stairs/Stairs_A
+    (1).prefab
+  uploadId: 321233

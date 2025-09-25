@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: e69aa1f4426ae1f419bcf8ebcfd81e78
+timeCreated: 1523014717
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118468
+  packageName: RPG Medieval Kingdom Kit
+  packageVersion: '2.0 '
+  assetPath: Assets/beffio/Medieval Kingdom/Content/Materials/Grounds/MainGrounds/Ground_3.mat
+  uploadId: 321233

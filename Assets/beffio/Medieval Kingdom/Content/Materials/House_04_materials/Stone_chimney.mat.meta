@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 160fbcc5d9c7627459d188fa2184883d
+timeCreated: 1519913107
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118468
+  packageName: RPG Medieval Kingdom Kit
+  packageVersion: '2.0 '
+  assetPath: Assets/beffio/Medieval Kingdom/Content/Materials/House_04_materials/Stone_chimney.mat
+  uploadId: 321233

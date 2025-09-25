@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 05fc22565b45cfb409b3da2a701db6b4
+timeCreated: 1523274672
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118468
+  packageName: RPG Medieval Kingdom Kit
+  packageVersion: '2.0 '
+  assetPath: Assets/beffio/Medieval Kingdom/Content/Prefabs/Vegetation/Trees/LongTree_4_DeepGreen.prefab
+  uploadId: 321233

@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 15c3278f04df42947ae7d2e2559a0870
+timeCreated: 1523282384
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118468
+  packageName: RPG Medieval Kingdom Kit
+  packageVersion: '2.0 '
+  assetPath: Assets/beffio/Medieval Kingdom/Content/Prefabs/Props/Table_03.prefab
+  uploadId: 321233

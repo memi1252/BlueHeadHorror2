@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: a4abc7f8d1e19b64f9cda5d239b54b30
+timeCreated: 1523365059
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118468
+  packageName: RPG Medieval Kingdom Kit
+  packageVersion: '2.0 '
+  assetPath: Assets/beffio/Medieval Kingdom/Content/Prefabs/Buildings/ModularElements/House
+    Extension/House_extension_01g.prefab
+  uploadId: 321233

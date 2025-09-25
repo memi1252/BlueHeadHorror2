@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 7ff76dd7649c56f4f96de2be924bd847
+timeCreated: 1523284019
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118468
+  packageName: RPG Medieval Kingdom Kit
+  packageVersion: '2.0 '
+  assetPath: Assets/beffio/Medieval Kingdom/Content/Prefabs/Vegetation/Grass & Ferns/Grass_plane_02_Yellow.prefab
+  uploadId: 321233

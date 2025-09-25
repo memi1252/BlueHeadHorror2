@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 129ded3ea3ab2c740a0bf0b2173713e2
+timeCreated: 1521473519
+licenseType: Store
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118468
+  packageName: RPG Medieval Kingdom Kit
+  packageVersion: '2.0 '
+  assetPath: Assets/beffio/Medieval Kingdom/Content/Shaders/beffio_Ground_Blending.shader
+  uploadId: 321233

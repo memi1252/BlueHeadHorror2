@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 778d894ba3c46e74490eed2b5a36c340
+timeCreated: 1526646432
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118468
+  packageName: RPG Medieval Kingdom Kit
+  packageVersion: '2.0 '
+  assetPath: Assets/beffio/Medieval Kingdom/Content/Prefabs/Buildings/ModularElements/Roofs/Roof_LODs/Roof_01_half_triangle_02
+    (2).prefab
+  uploadId: 321233

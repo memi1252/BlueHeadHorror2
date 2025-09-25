@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 51dee82d5edeceb42ba8131502dd05ed
+timeCreated: 1523284386
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118468
+  packageName: RPG Medieval Kingdom Kit
+  packageVersion: '2.0 '
+  assetPath: Assets/beffio/Medieval Kingdom/Content/Prefabs/Vegetation/Grass & Ferns/Grass_01_Orange.prefab
+  uploadId: 321233

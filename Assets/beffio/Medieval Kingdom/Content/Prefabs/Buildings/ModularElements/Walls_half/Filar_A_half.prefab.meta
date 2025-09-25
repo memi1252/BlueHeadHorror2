@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 2dd013eaa9cbe6c4586d42e2f0a4b6ed
+timeCreated: 1523539611
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118468
+  packageName: RPG Medieval Kingdom Kit
+  packageVersion: '2.0 '
+  assetPath: Assets/beffio/Medieval Kingdom/Content/Prefabs/Buildings/ModularElements/Walls_half/Filar_A_half.prefab
+  uploadId: 321233

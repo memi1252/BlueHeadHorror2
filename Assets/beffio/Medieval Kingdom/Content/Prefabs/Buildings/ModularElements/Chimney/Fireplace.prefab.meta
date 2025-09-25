@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 9e7e23f868b510549a5040536b7b6019
+timeCreated: 1523368636
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118468
+  packageName: RPG Medieval Kingdom Kit
+  packageVersion: '2.0 '
+  assetPath: Assets/beffio/Medieval Kingdom/Content/Prefabs/Buildings/ModularElements/Chimney/Fireplace.prefab
+  uploadId: 321233

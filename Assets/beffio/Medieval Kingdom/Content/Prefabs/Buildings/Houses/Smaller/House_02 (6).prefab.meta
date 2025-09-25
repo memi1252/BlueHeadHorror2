@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 049452d6dcc60a544a96994ab9c6f2ec
+timeCreated: 1523369221
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118468
+  packageName: RPG Medieval Kingdom Kit
+  packageVersion: '2.0 '
+  assetPath: Assets/beffio/Medieval Kingdom/Content/Prefabs/Buildings/Houses/Smaller/House_02
+    (6).prefab
+  uploadId: 321233

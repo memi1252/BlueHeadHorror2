@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 67ebd42433b00394ba91719a056ede43
+timeCreated: 1523274602
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118468
+  packageName: RPG Medieval Kingdom Kit
+  packageVersion: '2.0 '
+  assetPath: Assets/beffio/Medieval Kingdom/Content/Prefabs/Vegetation/Trees/LongTree_3_Orange.prefab
+  uploadId: 321233

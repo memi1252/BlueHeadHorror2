@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 938a3e6b6cbaf8d41ab2fe8eaf0e475a
+timeCreated: 1521465581
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118468
+  packageName: RPG Medieval Kingdom Kit
+  packageVersion: '2.0 '
+  assetPath: Assets/beffio/Medieval Kingdom/Content/Prefabs/dens_plane.prefab
+  uploadId: 321233

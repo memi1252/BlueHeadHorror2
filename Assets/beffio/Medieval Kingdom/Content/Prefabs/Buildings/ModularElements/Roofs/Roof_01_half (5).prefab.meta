@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 7630b72cd59c9fd45bd5eba185b56a19
+timeCreated: 1523621464
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118468
+  packageName: RPG Medieval Kingdom Kit
+  packageVersion: '2.0 '
+  assetPath: Assets/beffio/Medieval Kingdom/Content/Prefabs/Buildings/ModularElements/Roofs/Roof_01_half
+    (5).prefab
+  uploadId: 321233

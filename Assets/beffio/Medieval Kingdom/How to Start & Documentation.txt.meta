@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: a52cd5262e59ed0499360788ad314e1d
+timeCreated: 1526656493
+licenseType: Store
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118468
+  packageName: RPG Medieval Kingdom Kit
+  packageVersion: '2.0 '
+  assetPath: Assets/beffio/Medieval Kingdom/How to Start & Documentation.txt
+  uploadId: 321233

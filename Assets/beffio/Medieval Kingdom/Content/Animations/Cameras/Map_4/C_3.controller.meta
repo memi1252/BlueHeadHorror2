@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: eb152846a58052b46937521c7b56382f
+timeCreated: 1525854430
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118468
+  packageName: RPG Medieval Kingdom Kit
+  packageVersion: '2.0 '
+  assetPath: Assets/beffio/Medieval Kingdom/Content/Animations/Cameras/Map_4/C_3.controller
+  uploadId: 321233

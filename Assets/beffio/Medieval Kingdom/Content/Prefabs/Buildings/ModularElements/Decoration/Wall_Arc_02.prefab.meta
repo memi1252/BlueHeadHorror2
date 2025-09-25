@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 1656376e9463e6f4385a4f354c187371
+timeCreated: 1523887660
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118468
+  packageName: RPG Medieval Kingdom Kit
+  packageVersion: '2.0 '
+  assetPath: Assets/beffio/Medieval Kingdom/Content/Prefabs/Buildings/ModularElements/Decoration/Wall_Arc_02.prefab
+  uploadId: 321233

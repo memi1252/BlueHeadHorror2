@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 40b78982ce7a0d74b8a4f298b063e8e0
+timeCreated: 1519735197
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118468
+  packageName: RPG Medieval Kingdom Kit
+  packageVersion: '2.0 '
+  assetPath: Assets/beffio/Medieval Kingdom/Content/Materials/Chest/Chest_Wood 1.mat
+  uploadId: 321233
