@@ -15,14 +15,14 @@ MonoBehaviour:
   m_unfolded: 0
   m_isActive: 1
   m_helpEnabled: 0
-  m_orderNumber: 2147483647
-  m_selectedControllerType: 0
+  m_orderNumber: 100
+  m_selectedControllerType: 1
   m_activateTouchUI: 0
   m_addLocationSystem: 0
   m_addAudioManager: 0
   m_customAdjustDrawDistance: 1
   m_customSetupPostProcessing: 1
   m_addVFXManager: 0
-  m_drawDistance: 250000
+  m_drawDistance: 251796
   m_customCharacter: {fileID: 0}
   m_customCamera: {fileID: 0}

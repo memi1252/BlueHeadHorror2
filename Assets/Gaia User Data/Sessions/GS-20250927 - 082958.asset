@@ -18,12 +18,12 @@ MonoBehaviour:
 
     If you like Gaia please
     consider rating it :)'
-  m_previewImage: {fileID: 0}
+  m_previewImage: {fileID: 2800000, guid: bf567cc52f7de96458c080b12a88a716, type: 3}
   m_dateCreated: "2025-09-27 \uC624\uC804 8:29:58"
   m_terrainWidth: 1000
   m_terrainDepth: 1000
   m_terrainHeight: 600
-  m_seaLevel: 14.6484375
+  m_seaLevel: 71
   m_spawnDensity: 0.8
   m_isLocked: 0
   m_previewImageBytes: 
@@ -31,8 +31,13 @@ MonoBehaviour:
   m_previewImageHeight: 0
   m_operations: []
   m_terrainMinMaxCache:
-  - guid: 124e788b0272d744396a09ba5b9fd258
+  - guid: 2f2c5d21b11081b438bafabb40334d57
     isWorldmap: 0
+    recalculate: 0
+    min: 0
+    max: 0
+  - guid: Worldmap
+    isWorldmap: 1
     recalculate: 0
     min: 0
     max: 0
