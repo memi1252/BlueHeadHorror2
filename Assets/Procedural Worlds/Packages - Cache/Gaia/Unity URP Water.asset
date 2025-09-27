@@ -16,8 +16,8 @@ MonoBehaviour:
   m_displayName: Unity URP Water
   m_category: 2
   m_status: 2
-  m_installedSizeMB: 29.480057
-  m_packageSizeMB: 14.821506
+  m_installedSizeMB: 29.495277
+  m_packageSizeMB: 14.828363
   m_unityPackage: {fileID: 102900000, guid: d19ea5e4d3ff93d4a85217f32021b3be, type: 3}
   m_installFolder: Unity URP Water
   m_packageInfo: A simple water surface for URP derived from the Unity URP Sample

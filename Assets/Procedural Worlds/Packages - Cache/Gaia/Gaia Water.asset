@@ -17,7 +17,7 @@ MonoBehaviour:
   m_category: 2
   m_status: 2
   m_installedSizeMB: 77.10011
-  m_packageSizeMB: 34.9769
+  m_packageSizeMB: 34.95836
   m_unityPackage: {fileID: 102900000, guid: 5d72a122265417245ab611129f7da477, type: 3}
   m_installFolder: Gaia Water
   m_packageInfo: A water system that is part of Gaia. Add bodies of water such as
