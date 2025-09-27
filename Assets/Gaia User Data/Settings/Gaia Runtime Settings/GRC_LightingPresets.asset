@@ -9,12 +9,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cfa3dabab266d714791fcb2d2ca6d87a, type: 3}
-  m_Name: GRC_UnityHDRPWater
-  m_EditorClassIdentifier: Assembly-CSharp::Gaia.GRC_UnityHDRPWater
+  m_Script: {fileID: 11500000, guid: 0d78c7647be1c844cb1c2d5868da786f, type: 3}
+  m_Name: GRC_LightingPresets
+  m_EditorClassIdentifier: Assembly-CSharp::Gaia.GRC_LightingPresets
   m_unfolded: 0
   m_isActive: 1
   m_helpEnabled: 0
   m_orderNumber: 2147483647
-  m_activateFoam: 0
-  m_activateSSR: 1
+  m_addPPLayertoCamera: 1
+  m_addDynamicDepthOfField: 1
+  m_camera: {fileID: 0}
+  m_quickBakeLighting: 1
+  m_HDRPHeightAdjustFog: 1
