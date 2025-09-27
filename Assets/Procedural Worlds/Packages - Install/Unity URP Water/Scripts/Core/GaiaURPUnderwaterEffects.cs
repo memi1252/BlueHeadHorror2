@@ -170,7 +170,11 @@ namespace Gaia
                 }
                 else
                 {
-                    m_playerCamera = GaiaUtils.GetCamera().transform;
+                    Camera cam = GaiaUtils.GetCamera();
+                    if (cam!=null && cam.gameObject.activeInHierarchy)
+                    {
+                        m_playerCamera = cam.transform;
+                    }
                 }
             }
             

@@ -724,13 +724,15 @@ namespace Gaia
 #if !HDPipeline
             m_allGRCs.RemoveAll(x => x.GetType().Name == "GRC_UnityHDRPWater");
 #endif
-            //Kick out URP water if not in URP
+//Kick out URP water if not in URP
 #if !UPPipeline
             m_allGRCs.RemoveAll(x => x.GetType().Name == "GRC_UnityURPWater");
 #endif
 
+#if HDPipeline
             //Kick out PW Sky in HDRP
             m_allGRCs.RemoveAll(x => x.GetType().Name == "GRC_PWSky");
+#endif
 
 
             //Perform some sanity checks for two modules that would interfere with each other
@@ -1420,7 +1422,7 @@ namespace Gaia
             return settings;
         }
 
-        #endregion
+#endregion
 
         #region Tabs
         /// <summary>

@@ -155,6 +155,13 @@ namespace Gaia
                 GameObject underwaterEffectsGO = Instantiate(m_currentUnderwaterEffectsPrefab, waterSystemHolderGO.transform);
                 underwaterEffectsGO.name = m_currentUnderwaterEffectsPrefab.name; // Set name to prefab's original name
 
+                GaiaURPUnderwaterEffects gaiaURPUnderwaterEffects = underwaterEffectsGO.GetComponent<GaiaURPUnderwaterEffects>();
+                if (gaiaURPUnderwaterEffects != null)
+                { 
+                    gaiaURPUnderwaterEffects.m_seaLevel = seaLevel;
+                }
+
+
                 Transform wallT = underwaterEffectsGO.transform.Find("Underwater Horizon/Horizon Wall");
                 if (wallT != null)
                 {

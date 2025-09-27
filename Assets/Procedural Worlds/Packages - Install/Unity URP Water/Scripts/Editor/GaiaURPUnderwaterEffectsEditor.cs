@@ -57,8 +57,8 @@ namespace Gaia
         {
             m_editorUtils.Heading("GlobalSettings");
             m_profile.EnableUnderwaterEffects = m_editorUtils.Toggle("EnableUnderwaterEffects", m_profile.EnableUnderwaterEffects, helpEnabled);
-            m_profile.m_seaLevel = m_editorUtils.FloatField("SeaLevel", m_profile.m_seaLevel, helpEnabled);
-            m_profile.m_playerCamera = (Transform)m_editorUtils.ObjectField("PlayerCamera", m_profile.m_playerCamera, typeof(Transform), helpEnabled);
+            m_profile.m_seaLevel = m_editorUtils.FloatField("SeaLevel", m_profile.m_seaLevel,helpEnabled);
+            m_profile.m_playerCamera = (Transform)m_editorUtils.ObjectField("PlayerCamera", m_profile.m_playerCamera, typeof(Transform), true, helpEnabled);
             m_profile.m_startingUnderwater = m_editorUtils.Toggle("StartingUnderwater", m_profile.m_startingUnderwater, helpEnabled);
             bool transitionEnabled = m_profile.m_enableTransitionFX;
             transitionEnabled = m_editorUtils.Toggle("EnableTransitionFX", transitionEnabled, helpEnabled);
