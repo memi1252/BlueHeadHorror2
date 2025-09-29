@@ -11,8 +11,6 @@ public class InteractionUI : MonoBehaviour
     public void Show(string text)
     {
         interactionUI.SetActive(true);
-        Debug.Log(text);
-        Debug.Log(interactionText);
         interactionText.text = text +" (E)";
     }
 
