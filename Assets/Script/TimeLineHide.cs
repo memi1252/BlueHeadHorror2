@@ -15,6 +15,8 @@ public class TimeLineHide : MonoBehaviour
         {
             timelineDirector.stopped += OnTimelineStopped;
         }
+        UIManager.Instance.questUI.SetActive(false);
+        UIManager.Instance.crossHairUI.SetActive(false);
     }
 
     void OnTimelineStopped(PlayableDirector director)
@@ -23,9 +25,10 @@ public class TimeLineHide : MonoBehaviour
         GameManager.Instance.playerMove = playerMove;
         if(onTimelineEnd.GetPersistentEventCount() > 0)
         {
-            Debug.Log(onTimelineEnd.GetPersistentEventCount());
             onTimelineEnd.Invoke();
         }
+        UIManager.Instance.questUI.SetActive(true);
+        UIManager.Instance.crossHairUI.SetActive(true);
         gameObject.SetActive(false);
     }
 

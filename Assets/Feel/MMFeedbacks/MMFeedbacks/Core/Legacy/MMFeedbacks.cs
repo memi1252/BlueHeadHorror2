@@ -225,7 +225,7 @@ namespace MoreMountains.Feedbacks
 		/// <summary>
 		/// On Start we initialize our feedbacks if we're in auto mode
 		/// </summary>
-		protected virtual void Start()
+		public virtual void Start()
 		{
 			if ((InitializationMode == InitializationModes.Start) && (Application.isPlaying))
 			{
