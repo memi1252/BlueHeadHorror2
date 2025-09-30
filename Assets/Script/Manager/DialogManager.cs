@@ -23,6 +23,9 @@ namespace Doublsb.Dialog
         private Coroutine printRoutine;
 
         private bool isSkipping = false;
+        
+        public Action onDialogStart; //대화 시작 시 실행할 액션
+        public Action onDialogComplete; //대화 종료 시 실행할 액션
 
 
         public override void Awake()
@@ -43,7 +46,11 @@ namespace Doublsb.Dialog
         public virtual IEnumerator PrintDialogList(List<DialogData> dataList)
         {
             Printer.SetActive(true);
-
+            if (onDialogStart != null)
+            {
+                onDialogStart.Invoke();
+                onDialogStart = null;
+            }
             foreach (var data in dataList)
             {
                 foreach (var command in data.Commands)
@@ -71,6 +78,11 @@ namespace Doublsb.Dialog
             }
 
             //yield return WaitForMouseClick();
+            if (onDialogComplete != null)
+            {
+                onDialogComplete.Invoke();
+                onDialogComplete = null;
+            }
             Printer.SetActive(false);
         }
 

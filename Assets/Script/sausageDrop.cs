@@ -12,6 +12,7 @@ public class sausageDrop : MonoBehaviour
             miniBlueHeadShow.SetActive(true);
             GameManager.Instance.playerCamera = false;
             GameManager.Instance.playerMove = false;
+            UIManager.Instance.interactionUI.Hide();
             Destroy(gameObject);
         }
     }
