@@ -38,13 +38,19 @@ MonoBehaviour:
     max: 0
   - guid: 60953d07ccbfb0040ad4a905ec041262
     isWorldmap: 0
-    recalculate: 0
+    recalculate: 1
     min: 0
-    max: 105.97037
+    max: 104.9391
   - guid: Worldmap
     isWorldmap: 1
     recalculate: 0
-    min: 0
-    max: 0
-  m_bakedMaskCacheEntries: []
+    min: 0.10254021
+    max: 48.095608
+  m_bakedMaskCacheEntries:
+  - fileName: Terrain_0_0-20250927 - 151217_LayerGameObject_3584_1
+    assetPath: Assets/Procedural Worlds/Packages - Install/Gaia/TerrainCollisionData/Terrain_0_0-20250927
+      - 151217/Terrain_0_0-20250927 - 151217_LayerGameObject_3584_1
+    fullPath: D:/git/BlueHeadHorror2/Assets/Procedural Worlds/Packages - Install/Gaia/TerrainCollisionData/Terrain_0_0-20250927
+      - 151217/Terrain_0_0-20250927 - 151217_LayerGameObject_3584_1
+    texture: {fileID: 0}
   m_worldBiomeMaskSettings: {fileID: 0}
