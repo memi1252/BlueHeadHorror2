@@ -1,0 +1,5 @@
+LogsWall_Noral.tif filter=lfs diff=lfs merge=lfs -text
+LogsWall_Dry_Noral.tif filter=lfs diff=lfs merge=lfs -text
+LogsWall_Dry_Normal.tif filter=lfs diff=lfs merge=lfs -text
+LogsWall_Normal.tif filter=lfs diff=lfs merge=lfs -text
+LogsWall_Reversed_Normal.tif filter=lfs diff=lfs merge=lfs -text
