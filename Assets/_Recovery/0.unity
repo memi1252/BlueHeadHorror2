@@ -11066,30 +11066,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 325295024}
   m_SourcePrefab: {fileID: 100100000, guid: 777212a6a4ff5dc448aa6061088ad08a, type: 3}
---- !u!114 &281190574
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cba17d399ab86974c8ef9551f6e8f8d4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: GaiaCore::Gaia.NoiseSettings
-  transformSettings:
-    translation: {x: 500, y: 200, z: 350}
-    scale: {x: 4, y: 1, z: 4}
-    rotation: {x: 0, y: 0, z: 0}
-    flipScaleX: 0
-    flipScaleY: 0
-    flipScaleZ: 0
-  domainSettings:
-    noiseTypeName: Perlin
-    fractalTypeName: Fbm
-    noiseTypeParams: 
-    fractalTypeParams: '{"warpOffsets":{"x":0.0,"y":0.0,"z":0.0,"w":0.0},"octavesMinMax":{"x":0.0,"y":16.0},"amplitudeMinMax":{"x":0.0,"y":1.0},"frequencyMinMax":{"x":0.0,"y":2.0},"lacunarityMinMax":{"x":0.0,"y":4.0},"persistenceMinMax":{"x":0.0,"y":1.0},"warpIterationsMinMax":{"x":0.0,"y":8.0},"warpStrengthMinMax":{"x":-2.0,"y":2.0},"octaves":8.0,"amplitude":0.30000001192092898,"frequency":1.0,"persistence":0.5,"lacunarity":1.5,"warpIterations":0.0,"warpStrength":1.0,"warpEnabled":false,"warpExpanded":true}'
 --- !u!1001 &281835817
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -37144,7 +37120,7 @@ MonoBehaviour:
       m_warpIterations: 0
       m_warpStrength: 1
       m_warpOffset: {x: 0, y: 0, z: 0, w: 0}
-    m_noiseSettings: {fileID: 281190574}
+    m_noiseSettings: {fileID: 1565602160}
     m_noiseToolSettings:
       worldHeightRemap: {x: 0, y: 0}
       coordSpace: 0
@@ -68217,6 +68193,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 576185011}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!320 &1118404417
 PlayableDirector:
   m_ObjectHideFlags: 0
@@ -77276,6 +77264,30 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8295591563862043288, guid: e01f2e62cf41a3449be2dade3b2c2d79, type: 3}
   m_PrefabInstance: {fileID: 1561613953}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1565602160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cba17d399ab86974c8ef9551f6e8f8d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: GaiaCore::Gaia.NoiseSettings
+  transformSettings:
+    translation: {x: 500, y: 200, z: 350}
+    scale: {x: 4, y: 1, z: 4}
+    rotation: {x: 0, y: 0, z: 0}
+    flipScaleX: 0
+    flipScaleY: 0
+    flipScaleZ: 0
+  domainSettings:
+    noiseTypeName: Perlin
+    fractalTypeName: Fbm
+    noiseTypeParams: 
+    fractalTypeParams: '{"warpOffsets":{"x":0.0,"y":0.0,"z":0.0,"w":0.0},"octavesMinMax":{"x":0.0,"y":16.0},"amplitudeMinMax":{"x":0.0,"y":1.0},"frequencyMinMax":{"x":0.0,"y":2.0},"lacunarityMinMax":{"x":0.0,"y":4.0},"persistenceMinMax":{"x":0.0,"y":1.0},"warpIterationsMinMax":{"x":0.0,"y":8.0},"warpStrengthMinMax":{"x":-2.0,"y":2.0},"octaves":8.0,"amplitude":0.30000001192092898,"frequency":1.0,"persistence":0.5,"lacunarity":1.5,"warpIterations":0.0,"warpStrength":1.0,"warpEnabled":false,"warpExpanded":true}'
 --- !u!1 &1567546382
 GameObject:
   m_ObjectHideFlags: 0

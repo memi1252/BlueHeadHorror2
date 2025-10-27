@@ -9,7 +9,9 @@ public class BlueHeadShow : MonoBehaviour
     public SplineAnimate splineAnimate;
     public GameObject blueheadShowTimeLine;
     public GameObject blueHead;
+    public GameObject mineBlueHead;
     public Transform miniBlueHead;
+    public ParticleSystem blueHeadEffect;
     public float range;
 
     private void Start()
@@ -22,6 +24,7 @@ public class BlueHeadShow : MonoBehaviour
         GameManager.Instance.playerMove = false;
         GameManager.Instance.playerCamera = false;
         blueheadShowTimeLine.gameObject.SetActive(true);
+        miniBlueHead.gameObject.SetActive(false);
         blueHead.gameObject.SetActive(true);
     }
 
@@ -66,15 +69,17 @@ public class BlueHeadShow : MonoBehaviour
     public float scale = 0.3f;
     
     public void SmallPlayerStart()
-    {
+    {mineBlueHead.SetActive(false);
+        blueHead.gameObject.SetActive(false);
         StartCoroutine(SmallPlayer());
     }
     
     IEnumerator SmallPlayer()
     {
+        blueHeadEffect.Play();
         Vector3 originalScale = player.transform.localScale;
         Vector3 targetScale = originalScale * scale;
-        float duration = 2.0f; // 애니메이션 지속 시간
+        float duration = 3.0f; // 애니메이션 지속 시간
         float elapsed = 0.0f;
 
         while (elapsed < duration)
@@ -83,9 +88,8 @@ public class BlueHeadShow : MonoBehaviour
             elapsed += Time.deltaTime;
             yield return null;
         }
-
         player.transform.localScale = targetScale;
-        GameManager.Instance.playerMove = true;
-        GameManager.Instance.playerCamera = true;        
+        yield return new WaitForSeconds(0.8f);
+        PlayerLine.Instance.Line1();
     }
 }
