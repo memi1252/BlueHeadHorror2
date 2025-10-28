@@ -33,8 +33,10 @@ public class PlayerLine : MonoBehaviour
     }
     private void Line1End()
     {
+        FindAnyObjectByType<RedheadVillageGate>().col.isTrigger = true;
         GameManager.Instance.playerCamera = true;
         GameManager.Instance.playerMove = true;
+        UIManager.Instance.wayPointUI.isActive = true;
         DialogManager.Instance.onDialogComplete -= Line1End;
     }
 }

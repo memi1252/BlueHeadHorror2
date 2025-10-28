@@ -23,6 +23,11 @@ public class Interaction : MonoBehaviour
                 {
                     item.interactionFeedback.PlayFeedbacks();
                 }
+
+                if (item.onItemUse != null)
+                {
+                    item.onItemUse.Invoke();
+                }
             }
             string text = item.ItemName + " " + item.ItemAction;
             

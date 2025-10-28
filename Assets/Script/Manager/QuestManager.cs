@@ -8,6 +8,9 @@ public struct Quest
 {
     public string questName;
     public bool isComplete;
+    public Transform questTarget;
+    public int count;
+    public int maxCount;
 }
 
 
@@ -28,10 +31,23 @@ public class QuestManager : MonoSingleton<QuestManager>
     {
         if (!isComplete)
         {
-            if (quests.Length != currentQuest + 1)
+            if (quests.Length != currentQuest)
             {
-                questText.text = $"퀘스트: {quests[currentQuest].questName}";
+                if (quests[currentQuest].maxCount == -1)
+                {
+                    questText.text = $"퀘스트: {quests[currentQuest].questName}";
+                }
+                else
+                {
+                    quests[currentQuest].count++;
+                    if (quests[currentQuest].count >= quests[currentQuest].maxCount)
+                    {
+                        questText.text = $"퀘스트: {quests[currentQuest].questName} ({quests[currentQuest].maxCount}/{quests[currentQuest].maxCount})";
+                    }
+                }
+                
                 questText.color = Color.white;
+                UIManager.Instance.wayPointUI.target = quests[currentQuest].questTarget;
                 if (quests[currentQuest].isComplete)
                 {
                     isComplete = true;
@@ -42,10 +58,6 @@ public class QuestManager : MonoSingleton<QuestManager>
             {
                 questText.text = $"더이상 퀘스트가 존재하지 않음";
                 questText.color = Color.red;
-                if (quests.Length < currentQuest + 1)
-                {
-                    currentQuest = quests.Length - 1;
-                }
             }
             
         }
@@ -64,6 +76,18 @@ public class QuestManager : MonoSingleton<QuestManager>
 
     public void CompleteQuest()
     {
-        quests[currentQuest].isComplete = true;
+        if (quests[currentQuest].maxCount == -1)
+        {
+            quests[currentQuest].isComplete = true;
+        }
+        else
+        {
+            quests[currentQuest].count++;
+            if (quests[currentQuest].count >= quests[currentQuest].maxCount)
+            {
+                quests[currentQuest].isComplete = true;
+            }
+        }
+        
     }
 }

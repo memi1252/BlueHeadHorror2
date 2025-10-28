@@ -26,6 +26,7 @@ public class sausageDrop : MonoBehaviour
     {
         yield return new WaitForSeconds(1f);
         miniBlueHeadShow.SetActive(true);
+        UIManager.Instance.wayPointUI.isActive = false;
         GameManager.Instance.playerCamera = false;
         GameManager.Instance.playerMove = false;
         UIManager.Instance.interactionUI.Hide();

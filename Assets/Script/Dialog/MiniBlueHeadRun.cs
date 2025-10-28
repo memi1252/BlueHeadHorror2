@@ -22,6 +22,6 @@ public class MiniBlueHeadRun : MonoBehaviour
 
     public void OnEnd()
     {
-             
+        UIManager.Instance.wayPointUI.isActive = true;
     }
 }

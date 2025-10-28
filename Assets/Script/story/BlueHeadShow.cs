@@ -23,6 +23,7 @@ public class BlueHeadShow : MonoBehaviour
     {
         GameManager.Instance.playerMove = false;
         GameManager.Instance.playerCamera = false;
+        UIManager.Instance.wayPointUI.isActive = false;
         blueheadShowTimeLine.gameObject.SetActive(true);
         miniBlueHead.gameObject.SetActive(false);
         blueHead.gameObject.SetActive(true);

@@ -30,6 +30,7 @@ public class GameStartDialog : MonoBehaviour
     public void OnEnd()
     {
         black.SetActive(false);
+        UIManager.Instance.wayPointUI.isActive = true;
         GameManager.Instance.playerMove = true;
         GameManager.Instance.playerCamera = true;        
     }
