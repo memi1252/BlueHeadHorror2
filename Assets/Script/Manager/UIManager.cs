@@ -15,7 +15,7 @@ public class UIManager : MonoSingleton<UIManager>
     public Action onFadeInCompleteCallback;
 
 
-    public GameObject[] AllUI;
+    public GameObject[] PlayerDieUIs;
     public override void Awake()
     {
         base.Awake();

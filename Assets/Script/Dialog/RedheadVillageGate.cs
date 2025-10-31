@@ -6,7 +6,7 @@ public class RedheadVillageGate : MonoBehaviour
 {
     public Collider col;
     public Transform pos;
-    
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
@@ -15,13 +15,15 @@ public class RedheadVillageGate : MonoBehaviour
             col.enabled = false;
         }
     }
-    
+
     public void Show()
     {
         List<DialogData> dataList = new List<DialogData>();
         dataList.Add(new DialogData("플레이어: 여기에 마을이 있네?"));
-        dataList.Add(new DialogData("플레이어: 분명 파란머리랑 관련이있을꺼야"));
-        dataList.Add(new DialogData("플레이어: 일단 마을로 들어가보자"));
+        dataList.Add(new DialogData("플레이어: 저거 뭐야!"));
+        dataList.Add(new DialogData("플레이어: 파란머리랑 비슷하게 생겼어"));
+        dataList.Add(new DialogData("플레이어: 아 분명 이 마을에 봉인방법이있을거 같은데"));
+        dataList.Add(new DialogData("플레이어: 안 들키게 조심해야겠어!"));
         DialogManager.Instance.onDialogStart += OnStart;
         DialogManager.Instance.onDialogComplete += OnEnd;
         DialogManager.Instance.Show(dataList);
@@ -36,10 +38,9 @@ public class RedheadVillageGate : MonoBehaviour
 
     public void OnEnd()
     {
-        UIManager.Instance.wayPointUI.isActive = true;
         QuestManager.Instance.CompleteQuest();
         GameManager.Instance.playerMove = true;
-        GameManager.Instance.playerCamera = true;        
+        GameManager.Instance.playerCamera = true;
     }
 
     private void OnCollisionEnter(Collision collision)
@@ -56,6 +57,7 @@ public class RedheadVillageGate : MonoBehaviour
         GameManager.Instance.playerTransform.position = pos.position;
         Show2();
     }
+
     public void Show2()
     {
         List<DialogData> dataList = new List<DialogData>();

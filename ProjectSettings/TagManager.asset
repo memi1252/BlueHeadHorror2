@@ -27,9 +27,9 @@ TagManager:
   - PW_Object_Large
   - CameraFront
   - Item
-  - 
-  - 
-  - 
+  - Ground
+  - Player
+  - PlayerDie
   - 
   - 
   - 

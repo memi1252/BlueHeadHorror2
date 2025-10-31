@@ -39,7 +39,6 @@ public class QuestManager : MonoSingleton<QuestManager>
                 }
                 else
                 {
-                    quests[currentQuest].count++;
                     if (quests[currentQuest].count >= quests[currentQuest].maxCount)
                     {
                         questText.text = $"퀘스트: {quests[currentQuest].questName} ({quests[currentQuest].maxCount}/{quests[currentQuest].maxCount})";
