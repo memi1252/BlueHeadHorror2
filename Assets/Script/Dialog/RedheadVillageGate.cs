@@ -19,11 +19,12 @@ public class RedheadVillageGate : MonoBehaviour
     public void Show()
     {
         List<DialogData> dataList = new List<DialogData>();
-        dataList.Add(new DialogData("플레이어: 여기에 마을이 있네?"));
-        dataList.Add(new DialogData("플레이어: 저거 뭐야!"));
-        dataList.Add(new DialogData("플레이어: 파란머리랑 비슷하게 생겼어"));
-        dataList.Add(new DialogData("플레이어: 아 분명 이 마을에 봉인방법이있을거 같은데"));
-        dataList.Add(new DialogData("플레이어: 안 들키게 조심해야겠어!"));
+        
+        dataList.Add(new DialogData(LocalizationManager.Instance.GetText("player4-1")));
+        dataList.Add(new DialogData(LocalizationManager.Instance.GetText("player4-2")));
+        dataList.Add(new DialogData(LocalizationManager.Instance.GetText("player4-3")));
+        dataList.Add(new DialogData(LocalizationManager.Instance.GetText("player4-4")));
+        dataList.Add(new DialogData(LocalizationManager.Instance.GetText("player4-5")));
         DialogManager.Instance.onDialogStart += OnStart;
         DialogManager.Instance.onDialogComplete += OnEnd;
         DialogManager.Instance.Show(dataList);

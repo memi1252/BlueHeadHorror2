@@ -13,9 +13,9 @@ public class GameStartDialog : MonoBehaviour
     public void Show()
     {
         List<DialogData> dataList = new List<DialogData>();
-        dataList.Add(new DialogData("안내자: 이상한 꿈을 꾸고 10년 뒤"));
-        dataList.Add(new DialogData("안내자: 혼자 힐링을 하러 꿈에서 나온 근처의 산에"));
-        dataList.Add(new DialogData("안내자: 캠핑을 오게 됬다"));
+        dataList.Add(new DialogData(LocalizationManager.Instance.GetText("gameStart1")));
+        dataList.Add(new DialogData(LocalizationManager.Instance.GetText("gameStart2")));
+        dataList.Add(new DialogData(LocalizationManager.Instance.GetText("gameStart3")));
         DialogManager.Instance.onDialogStart += OnStart;
         DialogManager.Instance.onDialogComplete += OnEnd;
         DialogManager.Instance.Show(dataList);

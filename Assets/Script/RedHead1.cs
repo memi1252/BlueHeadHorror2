@@ -19,7 +19,7 @@ public class RedHead1 : Item
     public void Line()
     {
         List<DialogData> dataList = new List<DialogData>();
-        dataList.Add(new DialogData("시스템: 빨간 머리의 조각1을 획득했다!"));
+        dataList.Add(new DialogData(LocalizationManager.Instance.GetText("system1-1")));
         DialogManager.Instance.Show(dataList);
         DialogManager.Instance.onDialogStart += Line2Start;
         DialogManager.Instance.onDialogComplete += Line2End;

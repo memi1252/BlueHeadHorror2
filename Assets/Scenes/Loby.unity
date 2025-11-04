@@ -130,6 +130,7 @@ GameObject:
   - component: {fileID: 142870917}
   - component: {fileID: 142870919}
   - component: {fileID: 142870918}
+  - component: {fileID: 142870920}
   m_Layer: 5
   m_Name: TilteText
   m_TagString: Untagged
@@ -176,7 +177,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uBD88\uB8E8\uD5E4\uB4DC\uD638\uB7EC 2"
+  m_text: '#game_title#'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 65b1a41644f912c449370648fe9bad06, type: 2}
   m_sharedMaterial: {fileID: -3833604824777266294, guid: 65b1a41644f912c449370648fe9bad06, type: 2}
@@ -255,6 +256,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 142870916}
   m_CullTransparentMesh: 1
+--- !u!114 &142870920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 142870916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d5bd03586979d744b703e0c5aae6bd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LocalizedText
+  textKey: game_title
 --- !u!1 &172828885
 GameObject:
   m_ObjectHideFlags: 0
@@ -5281,7 +5295,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1206d991ab0ab1844b7fae3a248d36f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Item
-  itemType: 0
   ItemName: "\uC18C\uC2DC\uC9C0"
   ItemAction: "\uB4A4\uC9D1\uAE30"
   interactionFeedback: {fileID: 417773949}
@@ -5583,7 +5596,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1206d991ab0ab1844b7fae3a248d36f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Item
-  itemType: 0
   ItemName: "\uC18C\uC2DC\uC9C0"
   ItemAction: "\uBA39\uAE30"
   interactionFeedback: {fileID: 1396905091}
@@ -8673,7 +8685,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1206d991ab0ab1844b7fae3a248d36f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Item
-  itemType: 0
   ItemName: "\uCE58\uC988\uD584\uBC84\uAC70"
   ItemAction: "\uBA39\uAE30"
   interactionFeedback: {fileID: 1518047470}
@@ -13620,7 +13631,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1206d991ab0ab1844b7fae3a248d36f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Item
-  itemType: 0
   ItemName: "\uBC84\uAC70"
   ItemAction: "\uBA39\uAE30"
   interactionFeedback: {fileID: 983600270}
@@ -14618,7 +14628,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1206d991ab0ab1844b7fae3a248d36f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Item
-  itemType: 0
   ItemName: "\uC18C\uC2DC\uC9C0"
   ItemAction: "\uB4A4\uC9D1\uAE30"
   interactionFeedback: {fileID: 853019125}
@@ -14808,7 +14817,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 726032108}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1268704640}
+        m_TargetAssemblyTypeName: MainMenuUI, Assembly-CSharp
+        m_MethodName: GameQuit
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &726032108
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14847,6 +14868,50 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 726032105}
   m_CullTransparentMesh: 1
+--- !u!1 &770573815
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 770573817}
+  - component: {fileID: 770573816}
+  m_Layer: 0
+  m_Name: LocalizationManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &770573816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 770573815}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70d53e8310ca2d54cb9763b59f568579, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LocalizationManager
+--- !u!4 &770573817
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 770573815}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 139.24986, y: 25.06448, z: 318.8141}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &787450821
 GameObject:
   m_ObjectHideFlags: 0
@@ -15758,7 +15823,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1206d991ab0ab1844b7fae3a248d36f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Item
-  itemType: 0
   ItemName: "\uC18C\uC2DC\uC9C0"
   ItemAction: "\uBA39\uAE30"
   interactionFeedback: {fileID: 438576269}
@@ -15915,7 +15979,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1206d991ab0ab1844b7fae3a248d36f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Item
-  itemType: 0
   ItemName: "\uC18C\uC2DC\uC9C0"
   ItemAction: "\uB4A4\uC9D1\uAE30"
   interactionFeedback: {fileID: 1992711102}
@@ -16710,6 +16773,7 @@ GameObject:
   - component: {fileID: 1081525159}
   - component: {fileID: 1081525161}
   - component: {fileID: 1081525160}
+  - component: {fileID: 1081525162}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -16756,7 +16820,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uC124\uC815"
+  m_text: '#game_setting#'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 65b1a41644f912c449370648fe9bad06, type: 2}
   m_sharedMaterial: {fileID: -3833604824777266294, guid: 65b1a41644f912c449370648fe9bad06, type: 2}
@@ -16835,6 +16899,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1081525158}
   m_CullTransparentMesh: 1
+--- !u!114 &1081525162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1081525158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d5bd03586979d744b703e0c5aae6bd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LocalizedText
+  textKey: game_setting
 --- !u!1 &1085332223
 GameObject:
   m_ObjectHideFlags: 0
@@ -16973,7 +17050,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1206d991ab0ab1844b7fae3a248d36f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Item
-  itemType: 0
   ItemName: "\uBC84\uAC70"
   ItemAction: "\uBA39\uAE30"
   interactionFeedback: {fileID: 417213513}
@@ -17388,6 +17464,7 @@ GameObject:
   - component: {fileID: 1268704638}
   - component: {fileID: 1268704637}
   - component: {fileID: 1268704636}
+  - component: {fileID: 1268704640}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -17481,6 +17558,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1268704640
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1268704635}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 057429090dc6039468174675d8e083f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MainMenuUI
 --- !u!1 &1279927723
 GameObject:
   m_ObjectHideFlags: 0
@@ -22539,7 +22628,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1206d991ab0ab1844b7fae3a248d36f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Item
-  itemType: 0
   ItemName: "\uCE58\uC988\uD584\uBC84\uAC70"
   ItemAction: "\uBA39\uAE30"
   interactionFeedback: {fileID: 1709713828}
@@ -23131,7 +23219,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1206d991ab0ab1844b7fae3a248d36f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Item
-  itemType: 0
   ItemName: "\uC18C\uC2DC\uC9C0"
   ItemAction: "\uBA39\uAE30"
   interactionFeedback: {fileID: 1792221890}
@@ -24635,7 +24722,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1206d991ab0ab1844b7fae3a248d36f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Item
-  itemType: 0
   ItemName: "\uBC84\uAC70"
   ItemAction: "\uB4A4\uC9D1\uAE30"
   interactionFeedback: {fileID: 675787716}
@@ -24792,7 +24878,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1206d991ab0ab1844b7fae3a248d36f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Item
-  itemType: 0
   ItemName: "\uC18C\uC2DC\uC9C0"
   ItemAction: "\uB4A4\uC9D1\uAE30"
   interactionFeedback: {fileID: 1361050912}
@@ -25491,7 +25576,7 @@ Light:
   serializedVersion: 11
   m_Type: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1.5
+  m_Intensity: 4.08
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -25828,6 +25913,7 @@ GameObject:
   - component: {fileID: 1778182412}
   - component: {fileID: 1778182414}
   - component: {fileID: 1778182413}
+  - component: {fileID: 1778182415}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -25874,7 +25960,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uB098\uAC00\uAE30"
+  m_text: '#game_quit#'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 65b1a41644f912c449370648fe9bad06, type: 2}
   m_sharedMaterial: {fileID: -3833604824777266294, guid: 65b1a41644f912c449370648fe9bad06, type: 2}
@@ -25953,6 +26039,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1778182411}
   m_CullTransparentMesh: 1
+--- !u!114 &1778182415
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1778182411}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d5bd03586979d744b703e0c5aae6bd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LocalizedText
+  textKey: game_quit
 --- !u!1 &1792221887
 GameObject:
   m_ObjectHideFlags: 0
@@ -26437,7 +26536,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1810751599}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1268704640}
+        m_TargetAssemblyTypeName: MainMenuUI, Assembly-CSharp
+        m_MethodName: GameStart
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1810751599
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26614,7 +26725,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1206d991ab0ab1844b7fae3a248d36f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Item
-  itemType: 0
   ItemName: "\uBC84\uAC70"
   ItemAction: "\uB4A4\uC9D1\uAE30"
   interactionFeedback: {fileID: 557501700}
@@ -27242,6 +27352,7 @@ GameObject:
   - component: {fileID: 1917147612}
   - component: {fileID: 1917147614}
   - component: {fileID: 1917147613}
+  - component: {fileID: 1917147615}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -27288,7 +27399,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uAC8C\uC784\uC2DC\uC791"
+  m_text: '#game_start#'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 65b1a41644f912c449370648fe9bad06, type: 2}
   m_sharedMaterial: {fileID: -3833604824777266294, guid: 65b1a41644f912c449370648fe9bad06, type: 2}
@@ -27367,6 +27478,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1917147611}
   m_CullTransparentMesh: 1
+--- !u!114 &1917147615
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1917147611}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d5bd03586979d744b703e0c5aae6bd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LocalizedText
+  textKey: game_start
 --- !u!1 &1959157680
 GameObject:
   m_ObjectHideFlags: 0
@@ -27505,7 +27629,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1206d991ab0ab1844b7fae3a248d36f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Item
-  itemType: 0
   ItemName: "\uC18C\uC2DC\uC9C0"
   ItemAction: "\uB4A4\uC9D1\uAE30"
   interactionFeedback: {fileID: 487385344}
@@ -28456,3 +28579,4 @@ SceneRoots:
   - {fileID: 1200964220}
   - {fileID: 235145573}
   - {fileID: 633719232}
+  - {fileID: 770573817}
