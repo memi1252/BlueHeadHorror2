@@ -3,6 +3,8 @@ game_start,게임 시작,Game Start
 game_quit,게임 종료,Game Quit
 game_title,블루헤드호러2,Bluehead Horror 2
 game_setting,설정,setting
+quest,퀘스트,Quest
+complete,완료,complete
 gameStart1,안내자: 이상한 꿈을 꾸고 10년 뒤,Guide: Ten years after having a strange dream
 gameStart2,안내자: 혼자 힐링을 하러 꿈에서 나온 근처의 산에,Guide: I went to a nearby mountain in my dream to heal myself.
 gameStart3,안내자: 캠핑을 오게 됬다,Guide: We came to go camping.
@@ -29,7 +31,28 @@ player4-2,플레이어: 저거 뭐야!,Player: What is that!
 player4-3,플레이어: 파란머리랑 비슷하게 생겼어,Player: Looks similar to the blue hair
 player4-4,플레이어: 아 분명 이 마을에 봉인방법이있을거 같은데,"Player: Ah, I'm sure there's a way to seal this town."
 player4-5,플레이어: 안 들키게 조심해야겠어!,Player: We have to be careful not to get caught!
+player5-1,플레이어: 이 종이는 뭐지?,Player: What is this paper?
+player5-2,플레이어: 이 빨간 머리는 뭐지,Player: What is this red hair?
+player5-3,플레이어: 이거 혹시 파란 머리를 봉인 시킬수 있는 방법인가?,Player: Is this a way to seal blue hair?
+player5-4,플레이어: 이 종이가 여기에 있다면 재료도 근처에있을꺼야,"Player: If this paper is here, the materials should be nearby too."
+player5-5,플레이어: 어서 찾아 보자!!,Player: Let's go find it!!
 system1-1,시스템: 빨간 머리의 조각1을 획득했다!,System: You have acquired Red Head Piece 1!
 system1-2,시스템: 빨간 머리의 조각2을 획득했다!,System: You have acquired Red Hair Piece 2!
 system1-3,시스템: 빨간 머리의 조각3을 획득했다!,System: Obtained Red Head Fragment 3!
 system1-4,시스템: 빨간 머리의 조각4을 획득했다!,System: Obtained Red Head Piece 4!
+system2,플레이어: 아직은 마을에 들어갈수 없어,Player: You can't enter the village yet.
+eat,먹기,eating
+turn,뒤집기,Flip
+cheez_hamberger,치즈햄버거,Cheeseburger
+berger,버거,Burger
+discarded_paper,버려진 종이,discarded paper
+get,줍기,Pick up
+redhead1,빨간머리1,Redhead1
+redhead2,빨간머리2,Redhead 2
+redhead3,빨간머리3,Redhead 3
+redhead4,빨간머리4,Redhead 4
+quest1,"소세지,패티 굽기",Grilling sausages and patties
+quest2,정체를 알 수 없는 동물을 따라가기,Follow an unidentified animal
+quest3,갈울 떠러 걸어가기,Walk to the haystack
+quest4,마을 수색하기,Search the village
+quest5,재료 아이템 찾기,Find material items

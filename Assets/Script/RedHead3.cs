@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using Doublsb.Dialog;
 using UnityEngine;
 
-public class RedHead1 : Item
+public class RedHead3 : Item
 {
     public void Start()
     {

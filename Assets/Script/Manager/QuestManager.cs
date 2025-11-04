@@ -35,13 +35,13 @@ public class QuestManager : MonoSingleton<QuestManager>
             {
                 if (quests[currentQuest].maxCount == -1)
                 {
-                    questText.text = $"퀘스트: {quests[currentQuest].questName}";
+                    questText.text = $"{LocalizationManager.Instance.GetText("quest")}: {LocalizationManager.Instance.GetText(quests[currentQuest].questName)}";
                 }
                 else
                 {
                     if (quests[currentQuest].count >= quests[currentQuest].maxCount)
                     {
-                        questText.text = $"퀘스트: {quests[currentQuest].questName} ({quests[currentQuest].maxCount}/{quests[currentQuest].maxCount})";
+                        questText.text = $"{LocalizationManager.Instance.GetText("quest")}: {LocalizationManager.Instance.GetText(quests[currentQuest].questName)} ({quests[currentQuest].maxCount}/{quests[currentQuest].maxCount})";
                     }
                 }
                 
@@ -66,11 +66,18 @@ public class QuestManager : MonoSingleton<QuestManager>
     
     IEnumerator QusetComplete()
     {
-        questText.text = $"퀘스트: {quests[currentQuest].questName} 완료";
+        LocalizationManager.Instance.OnLanguageChanged += InstanceOnOnLanguageChanged;
+        questText.text = $"{LocalizationManager.Instance.GetText("quest")}: {LocalizationManager.Instance.GetText(quests[currentQuest].questName)} {LocalizationManager.Instance.GetText("complete")}";
         questText.color = Color.green;
         yield return new WaitForSeconds(2f);
+        LocalizationManager.Instance.OnLanguageChanged -= InstanceOnOnLanguageChanged;
         isComplete = false;
         currentQuest++;
+    }
+
+    private void InstanceOnOnLanguageChanged()
+    {
+        questText.text = $"{LocalizationManager.Instance.GetText("quest")}: {LocalizationManager.Instance.GetText(quests[currentQuest].questName)} {LocalizationManager.Instance.GetText("complete")}";
     }
 
     public void CompleteQuest()

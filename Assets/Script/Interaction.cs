@@ -29,7 +29,7 @@ public class Interaction : MonoBehaviour
                     item.onItemUse.Invoke();
                 }
             }
-            string text = item.ItemName + " " + item.ItemAction;
+            string text = LocalizationManager.Instance.GetText(item.ItemName) + " " + LocalizationManager.Instance.GetText(item.ItemAction);
             
             UIManager.Instance.interactionUI.Show(text);
         }

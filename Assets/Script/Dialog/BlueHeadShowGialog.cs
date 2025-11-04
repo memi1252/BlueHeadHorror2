@@ -9,20 +9,22 @@ public class BlueHeadShowGialog : MonoBehaviour
     
     public void Show()
     {
-        List<DialogData> dataList = new List<DialogData>();
-        dataList.Add(new DialogData(LocalizationManager.Instance.GetText("player2-1")));
-        dataList.Add(new DialogData(LocalizationManager.Instance.GetText("player2-2")));
-        dataList.Add(new DialogData(LocalizationManager.Instance.GetText("player2-3")));
-        dataList.Add(new DialogData(LocalizationManager.Instance.GetText("player2-4")));
-        dataList.Add(new DialogData(LocalizationManager.Instance.GetText("player2-5")));
-        dataList.Add(new DialogData(LocalizationManager.Instance.GetText("player2-6")));
-        dataList.Add(new DialogData(LocalizationManager.Instance.GetText("player2-7")));
-        dataList.Add(new DialogData(LocalizationManager.Instance.GetText("player2-8")));
-        dataList.Add(new DialogData(LocalizationManager.Instance.GetText("player2-9")));
-        dataList.Add(new DialogData(LocalizationManager.Instance.GetText("player2-10")));
+        List<string> keys = new List<string>()
+        {
+            "player2-1",
+            "player2-2",
+            "player2-3",
+            "player2-4",
+            "player2-5",
+            "player2-6",
+            "player2-7",
+            "player2-8",
+            "player2-9",
+            "player2-10"
+        };
         DialogManager.Instance.onDialogStart += OnStart;
         DialogManager.Instance.onDialogComplete += OnEnd;
-        DialogManager.Instance.Show(dataList);
+        DialogManager.Instance.Show(keys);
     }
 
     private void OnStart()

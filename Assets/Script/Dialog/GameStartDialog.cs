@@ -12,13 +12,15 @@ public class GameStartDialog : MonoBehaviour
 
     public void Show()
     {
-        List<DialogData> dataList = new List<DialogData>();
-        dataList.Add(new DialogData(LocalizationManager.Instance.GetText("gameStart1")));
-        dataList.Add(new DialogData(LocalizationManager.Instance.GetText("gameStart2")));
-        dataList.Add(new DialogData(LocalizationManager.Instance.GetText("gameStart3")));
+        List<string> keys = new List<string>()
+        {
+            "gameStart1",
+            "gameStart2",
+            "gameStart3"
+        };
         DialogManager.Instance.onDialogStart += OnStart;
         DialogManager.Instance.onDialogComplete += OnEnd;
-        DialogManager.Instance.Show(dataList);
+        DialogManager.Instance.Show(keys);
     }
 
     public void OnStart()

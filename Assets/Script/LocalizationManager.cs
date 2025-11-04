@@ -15,6 +15,7 @@ public class LocalizationManager : MonoBehaviour
     private Dictionary<string, Dictionary<string, string>> localizationData;
     private List<string> languageCodes;
     public string CurrentLanguage { get; set; } = "ko"; // 기본 언어 설정
+    public event Action OnLanguageChanged;
 
     // CSV 파싱을 위한 정규 표현식 (따옴표 내부 쉼표 무시)
     private static readonly Regex CSV_SPLIT_REGEX = new Regex(",(?=(?:[^\"]*\"[^\"]*\")*[^\"]*$)");
@@ -41,12 +42,14 @@ public class LocalizationManager : MonoBehaviour
         {
             CurrentLanguage = "ko";
             RefreshAllText();
+            OnLanguageChanged?.Invoke();
             Debug.Log("언어가 한국어로 변경되었습니다.");
         }
         else if (Input.GetKeyDown(KeyCode.L))
         {
             CurrentLanguage = "en";
             RefreshAllText();
+            OnLanguageChanged?.Invoke();
             Debug.Log("언어가 영어로 변경되었습니다.");
         }
     }

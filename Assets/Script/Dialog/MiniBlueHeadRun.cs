@@ -6,13 +6,15 @@ public class MiniBlueHeadRun : MonoBehaviour
 {
     public void Show()
     {
-        List<DialogData> dataList = new List<DialogData>();
-        dataList.Add(new DialogData(LocalizationManager.Instance.GetText("player1-1")));
-        dataList.Add(new DialogData(LocalizationManager.Instance.GetText("player1-2")));
-        dataList.Add(new DialogData(LocalizationManager.Instance.GetText("player1-3")));
+        List<string> keys = new List<string>()
+        {
+            "player1-1",
+            "player1-2",
+            "player1-3"
+        };
         DialogManager.Instance.onDialogStart += OnStart;
         DialogManager.Instance.onDialogComplete += OnEnd;
-        DialogManager.Instance.Show(dataList);
+        DialogManager.Instance.Show(keys);
     }
 
     public void OnStart()

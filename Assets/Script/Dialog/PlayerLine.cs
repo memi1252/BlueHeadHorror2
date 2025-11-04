@@ -21,14 +21,15 @@ public class PlayerLine : MonoBehaviour
 
     public void Line1()
     {
-        List<DialogData> dataList = new List<DialogData>();
-        
-        dataList.Add(new DialogData(LocalizationManager.Instance.GetText("player3-1")));
-        dataList.Add(new DialogData(LocalizationManager.Instance.GetText("player3-2")));
-        dataList.Add(new DialogData(LocalizationManager.Instance.GetText("player3-3")));
-        dataList.Add(new DialogData(LocalizationManager.Instance.GetText("player3-4")));
-        dataList.Add(new DialogData(LocalizationManager.Instance.GetText("player3-5")));
-        DialogManager.Instance.Show(dataList);
+        List<string> keys = new List<string>()
+        {
+            "player3-1",
+            "player3-2",
+            "player3-3",
+            "player3-4",
+            "player3-5"
+        };
+        DialogManager.Instance.Show(keys);
         //DialogManager.Instance.onDialogStart += Line1Start;
         DialogManager.Instance.onDialogComplete += Line1End;
     }
@@ -44,13 +45,15 @@ public class PlayerLine : MonoBehaviour
     
     public void Line2()
     {
-        List<DialogData> dataList = new List<DialogData>();
-        dataList.Add(new DialogData("플레이어: 이 종이는 뭐지?"));
-        dataList.Add(new DialogData("플레이어: 이 빨간 머리는 뭐고"));
-        dataList.Add(new DialogData("플레이어: 이거 혹시 파란 머리를 봉인 시킬수 있는 방법인가?"));
-        dataList.Add(new DialogData("플레이어: 이 종이가 여기에 있다면 재료도 근처에있을꺼야"));
-        dataList.Add(new DialogData("플레이어: 어서 찾아 보자!!"));
-        DialogManager.Instance.Show(dataList);
+        List<string> keys = new List<string>()
+        {
+            "player5-1",
+            "player5-2",
+            "player5-3",
+            "player5-4",
+            "player5-5"
+        };
+        DialogManager.Instance.Show(keys);
         DialogManager.Instance.onDialogStart += Line2Start;
         DialogManager.Instance.onDialogComplete += Line2End;
     }

@@ -26,7 +26,8 @@ namespace Doublsb.Dialog
         
         public Action onDialogStart; //대화 시작 시 실행할 액션
         public Action onDialogComplete; //대화 종료 시 실행할 액션
-
+        private List<DialogData> dataList;
+        public List<string> keys;
 
         public override void Awake()
         {
@@ -34,16 +35,34 @@ namespace Doublsb.Dialog
         }
 
         //Test_TestMessage_Selection에서 대사 리스트를 받아 출력
-        public void Show(List<DialogData> dataList)
+        public void Show(List<string> keys)
         {
             if (printingRoutine != null)
                 StopCoroutine(printingRoutine);
-            printingRoutine = StartCoroutine(PrintDialogList(dataList));
+            this.keys = keys;
+            List<DialogData> dataList = new List<DialogData>();
+            foreach (string key in keys)
+            {
+                dataList.Add(new DialogData(LocalizationManager.Instance.GetText(key)));
+            }
+            LocalizationManager.Instance.OnLanguageChanged += InstanceOnOnLanguageChanged;
+            this.dataList = dataList;
+            printingRoutine = StartCoroutine(PrintDialogList());
+        }
+
+        private void InstanceOnOnLanguageChanged()
+        {
+            List<DialogData> dataList = new List<DialogData>();
+            foreach (string key in keys)
+            {
+                dataList.Add(new DialogData(LocalizationManager.Instance.GetText(key)));
+            }
+            this.dataList = dataList;
         }
 
 
         //대사 리스트 순서대로 출력
-        public virtual IEnumerator PrintDialogList(List<DialogData> dataList)
+        public virtual IEnumerator PrintDialogList()
         {
             Printer.SetActive(true);
             if (onDialogStart != null)
@@ -51,9 +70,10 @@ namespace Doublsb.Dialog
                 onDialogStart.Invoke();
                 onDialogStart = null;
             }
-            foreach (var data in dataList)
+
+            for (int i = 0; i < dataList.Count; i++)
             {
-                foreach (var command in data.Commands)
+                foreach (var command in dataList[i].Commands)
                 {
                     if (command.Command == Command.print)
                     {
@@ -76,6 +96,10 @@ namespace Doublsb.Dialog
                     }
                 }
             }
+            foreach (var data in dataList)
+            {
+                
+            }
 
             //yield return WaitForMouseClick();
             if (onDialogComplete != null)
@@ -83,6 +107,9 @@ namespace Doublsb.Dialog
                 onDialogComplete.Invoke();
                 onDialogComplete = null;
             }
+            dataList.Clear();
+            keys.Clear();
+            LocalizationManager.Instance.OnLanguageChanged -= InstanceOnOnLanguageChanged;
             Printer.SetActive(false);
         }
 

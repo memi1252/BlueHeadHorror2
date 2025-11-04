@@ -18,16 +18,17 @@ public class RedheadVillageGate : MonoBehaviour
 
     public void Show()
     {
-        List<DialogData> dataList = new List<DialogData>();
-        
-        dataList.Add(new DialogData(LocalizationManager.Instance.GetText("player4-1")));
-        dataList.Add(new DialogData(LocalizationManager.Instance.GetText("player4-2")));
-        dataList.Add(new DialogData(LocalizationManager.Instance.GetText("player4-3")));
-        dataList.Add(new DialogData(LocalizationManager.Instance.GetText("player4-4")));
-        dataList.Add(new DialogData(LocalizationManager.Instance.GetText("player4-5")));
+        List<string> keys = new List<string>()
+        {
+            "player4-1",
+            "player4-2",
+            "player4-3",
+            "player4-4",
+            "player4-5"
+        };
         DialogManager.Instance.onDialogStart += OnStart;
         DialogManager.Instance.onDialogComplete += OnEnd;
-        DialogManager.Instance.Show(dataList);
+        DialogManager.Instance.Show(keys);
     }
 
     public void OnStart()
@@ -61,10 +62,12 @@ public class RedheadVillageGate : MonoBehaviour
 
     public void Show2()
     {
-        List<DialogData> dataList = new List<DialogData>();
-        dataList.Add(new DialogData("플레이어: 아직은 마을에 들어갈수 없어"));
+        List<string> keys = new List<string>()
+        {
+            "system2"
+        };
         DialogManager.Instance.onDialogStart += OnStart;
         DialogManager.Instance.onDialogComplete += OnEnd;
-        DialogManager.Instance.Show(dataList);
+        DialogManager.Instance.Show(keys);
     }
 }
