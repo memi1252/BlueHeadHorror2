@@ -13,6 +13,9 @@ public class RedHead2 : Item
     {
         Line();
         QuestManager.Instance.CompleteQuest();
+        GameManager.Instance.playerMove = false;
+        FindAnyObjectByType<noHeadBlueShow>().isShow = true;
+        Destroy(gameObject);
     }
     
     
