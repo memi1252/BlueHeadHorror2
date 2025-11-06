@@ -13,6 +13,7 @@ public class RedHead4 : Item
     {
         Line();
         QuestManager.Instance.CompleteQuest();
+        Destroy(this);
     }
     
     
