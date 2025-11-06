@@ -5,8 +5,8 @@ game_title,블루헤드호러2,Bluehead Horror 2
 game_setting,설정,setting
 quest,퀘스트,Quest
 complete,완료,complete
-gameStart1,안내자: 이상한 꿈을 꾸고 10년 뒤,Guide: Ten years after having a strange dream
-gameStart2,안내자: 혼자 힐링을 하러 꿈에서 나온 근처의 산에,Guide: I went to a nearby mountain in my dream to heal myself.
+gameStart1,안내자: 파란 머리가 나온 꿈을 꾼지 10년이 지났다,Guide: It's been 10 years since I had the dream about blue hair.
+gameStart2,안내자: 열심히 일하고 난 후 지친 몸을 이끌고 ,"Guide: After working hard, I am tired and leading my body."
 gameStart3,안내자: 캠핑을 오게 됬다,Guide: We came to go camping.
 player1-1,플레이어: 어 뭐야?,"Player: Oh, what is it?"
 player1-2,플레이어: 고양이인가 그거 먹으면 안돼,Player: You can't eat that cat.
@@ -51,8 +51,11 @@ redhead1,빨간머리1,Redhead1
 redhead2,빨간머리2,Redhead 2
 redhead3,빨간머리3,Redhead 3
 redhead4,빨간머리4,Redhead 4
+door,문,door
+doorOpen,열기,opening
+doorClose,닫기,close
 quest1,"소세지,패티 굽기",Grilling sausages and patties
 quest2,정체를 알 수 없는 동물을 따라가기,Follow an unidentified animal
-quest3,갈울 떠러 걸어가기,Walk to the haystack
+quest3,길을 따라 걸어가기,Walk along the road
 quest4,마을 수색하기,Search the village
 quest5,재료 아이템 찾기,Find material items

@@ -2194,7 +2194,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 93861300}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
@@ -2210,7 +2210,7 @@ Transform:
   m_GameObject: {fileID: 93861299}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 6.76, y: 0.05, z: 0.024}
+  m_LocalPosition: {x: 4.33, y: 0.05, z: 0.024}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2818,6 +2818,11 @@ Transform:
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 5e7935f3f20776640a7363987a4abd73, type: 3}
   m_PrefabInstance: {fileID: 120655841}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &144769472 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 8a97ebfd8e29e5447bf4e00317bd5f0d, type: 3}
+  m_PrefabInstance: {fileID: 664498244}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &147591494 stripped
 Transform:
@@ -11637,30 +11642,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4321334370894370060, guid: 96eb4962b8f11324ea16b081db786be8, type: 3}
   m_PrefabInstance: {fileID: 282718197}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &283958288
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cba17d399ab86974c8ef9551f6e8f8d4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: GaiaCore::Gaia.NoiseSettings
-  transformSettings:
-    translation: {x: 500, y: 200, z: 350}
-    scale: {x: 4, y: 1, z: 4}
-    rotation: {x: 0, y: 0, z: 0}
-    flipScaleX: 0
-    flipScaleY: 0
-    flipScaleZ: 0
-  domainSettings:
-    noiseTypeName: Perlin
-    fractalTypeName: Fbm
-    noiseTypeParams: 
-    fractalTypeParams: '{"warpOffsets":{"x":0.0,"y":0.0,"z":0.0,"w":0.0},"octavesMinMax":{"x":0.0,"y":16.0},"amplitudeMinMax":{"x":0.0,"y":1.0},"frequencyMinMax":{"x":0.0,"y":2.0},"lacunarityMinMax":{"x":0.0,"y":4.0},"persistenceMinMax":{"x":0.0,"y":1.0},"warpIterationsMinMax":{"x":0.0,"y":8.0},"warpStrengthMinMax":{"x":-2.0,"y":2.0},"octaves":8.0,"amplitude":0.30000001192092898,"frequency":1.0,"persistence":0.5,"lacunarity":1.5,"warpIterations":0.0,"warpStrength":1.0,"warpEnabled":false,"warpExpanded":true}'
 --- !u!1 &284428174
 GameObject:
   m_ObjectHideFlags: 0
@@ -12351,6 +12332,18 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 144769472}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &327571189
 MonoBehaviour:
@@ -32661,7 +32654,7 @@ MonoBehaviour:
     maxCount: -1
   - questName: quest4
     isComplete: 0
-    questTarget: {fileID: 0}
+    questTarget: {fileID: 2022809035}
     count: 0
     maxCount: -1
   - questName: quest5
@@ -37635,7 +37628,7 @@ MonoBehaviour:
       m_warpIterations: 0
       m_warpStrength: 1
       m_warpOffset: {x: 0, y: 0, z: 0, w: 0}
-    m_noiseSettings: {fileID: 283958288}
+    m_noiseSettings: {fileID: 841030847}
     m_noiseToolSettings:
       worldHeightRemap: {x: 0, y: 0}
       coordSpace: 0
@@ -60133,6 +60126,30 @@ MonoBehaviour:
     m_selectedWorldBiomeMaskGUID: 
     m_growAndShrinkValue: 0
     m_globalSpawnerMaskStackRT: {fileID: 0}
+--- !u!114 &841030847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cba17d399ab86974c8ef9551f6e8f8d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: GaiaCore::Gaia.NoiseSettings
+  transformSettings:
+    translation: {x: 500, y: 200, z: 350}
+    scale: {x: 4, y: 1, z: 4}
+    rotation: {x: 0, y: 0, z: 0}
+    flipScaleX: 0
+    flipScaleY: 0
+    flipScaleZ: 0
+  domainSettings:
+    noiseTypeName: Perlin
+    fractalTypeName: Fbm
+    noiseTypeParams: 
+    fractalTypeParams: '{"warpOffsets":{"x":0.0,"y":0.0,"z":0.0,"w":0.0},"octavesMinMax":{"x":0.0,"y":16.0},"amplitudeMinMax":{"x":0.0,"y":1.0},"frequencyMinMax":{"x":0.0,"y":2.0},"lacunarityMinMax":{"x":0.0,"y":4.0},"persistenceMinMax":{"x":0.0,"y":1.0},"warpIterationsMinMax":{"x":0.0,"y":8.0},"warpStrengthMinMax":{"x":-2.0,"y":2.0},"octaves":8.0,"amplitude":0.30000001192092898,"frequency":1.0,"persistence":0.5,"lacunarity":1.5,"warpIterations":0.0,"warpStrength":1.0,"warpEnabled":false,"warpExpanded":true}'
 --- !u!1 &842030590
 GameObject:
   m_ObjectHideFlags: 0
@@ -66280,7 +66297,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: GaiaCore::DynamicDepthOfField
   raycastLayerMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 130871
   parameters:
     minDistance: 1
     maxDistance: 1024
@@ -69512,6 +69529,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1118404419}
+        m_TargetAssemblyTypeName: BlueHeadShowGialog, Assembly-CSharp
+        m_MethodName: BlueHeadLook
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!320 &1118404417
 PlayableDirector:
   m_ObjectHideFlags: 0
@@ -69567,6 +69596,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlueHeadShowGialog
   blueHeadShow: {fileID: 1304433026}
+  blueHeadTransform: {fileID: 389969887}
 --- !u!1001 &1120998549
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -70848,6 +70878,11 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!1 &1167433008 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6392630883943744814, guid: 07d94918ce6dd534f9b703afa7e1c277, type: 3}
+  m_PrefabInstance: {fileID: 7658363326475105571}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1168041805
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -79593,7 +79628,7 @@ GameObject:
   - component: {fileID: 1578088155}
   - component: {fileID: 1578088154}
   - component: {fileID: 1578088153}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: inputGate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -126073,13 +126108,59 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6392630883943744814, guid: 07d94918ce6dd534f9b703afa7e1c277, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7658363326475105577}
+    - targetCorrespondingSourceObject: {fileID: 6392630883943744814, guid: 07d94918ce6dd534f9b703afa7e1c277, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7658363326475105576}
   m_SourcePrefab: {fileID: 100100000, guid: 07d94918ce6dd534f9b703afa7e1c277, type: 3}
 --- !u!4 &7658363326475105572 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1385973787537443721, guid: 07d94918ce6dd534f9b703afa7e1c277, type: 3}
   m_PrefabInstance: {fileID: 7658363326475105571}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &7658363326475105576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1167433008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7dd9bd07f5d8a864f86883770afaf240, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Door
+  ItemName: door
+  ItemAction: doorOpen
+  interactionFeedback: {fileID: 0}
+  isOpen: 0
+  openkey: doorOpen
+  closekey: doorClose
+--- !u!95 &7658363326475105577
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1167433008}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1820fc047de55bd4d81b0853a494dfaf, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &7679881945848320894
 PrefabInstance:
   m_ObjectHideFlags: 0

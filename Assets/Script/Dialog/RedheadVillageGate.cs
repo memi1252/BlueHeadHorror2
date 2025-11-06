@@ -41,6 +41,7 @@ public class RedheadVillageGate : MonoBehaviour
     public void OnEnd()
     {
         QuestManager.Instance.CompleteQuest();
+        UIManager.Instance.wayPointUI.isActive = true;
         GameManager.Instance.playerMove = true;
         GameManager.Instance.playerCamera = true;
     }

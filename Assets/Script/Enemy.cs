@@ -1,5 +1,6 @@
 using System;
 using System.Collections;
+using StarterAssets;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.AI;
@@ -63,7 +64,8 @@ public class Enemy : MonoBehaviour
                     {
                         UI.SetActive(false);
                     }
-                    playerDieEffect.SetActive(true);
+
+                    StartCoroutine(PlayerDie());
                 }
                 return;
             }
@@ -82,6 +84,19 @@ public class Enemy : MonoBehaviour
                 }
             }
         }
+    }
+
+    IEnumerator PlayerDie()
+    {
+        playerDieEffect.SetActive(true);
+        GameManager.Instance.playerTransform.position = FindAnyObjectByType<RedheadVillageGate>().pos.position;
+        GameManager.Instance.playerTransform.rotation = FindAnyObjectByType<RedheadVillageGate>().pos.localRotation;
+        FindAnyObjectByType<FirstPersonController>().CinemachineCameraTarget.transform.localRotation = Quaternion.Euler(FindAnyObjectByType<RedheadVillageGate>().pos.localRotation.x, 0.0f, 0.0f);
+        yield return new WaitForSeconds(5f);
+        playerDieEffect.SetActive(false);
+        playerDie = false;
+        GameManager.Instance.playerMove = true;
+        GameManager.Instance.playerCamera = true;
     }
     
     private IEnumerator FOVRountine()

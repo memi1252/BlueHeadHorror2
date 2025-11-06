@@ -1,11 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using Doublsb.Dialog;
+using StarterAssets;
 using UnityEngine;
 
 public class BlueHeadShowGialog : MonoBehaviour
 {
     public BlueHeadShow blueHeadShow;
+    public Transform blueHeadTransform;
     
     public void Show()
     {
@@ -39,7 +41,11 @@ public class BlueHeadShowGialog : MonoBehaviour
         DialogManager.Instance.onDialogStart -= OnStart;
         DialogManager.Instance.onDialogComplete -= OnEnd;   
     }
-    
-    
+
+    public void BlueHeadLook()
+    {
+        FindAnyObjectByType<FirstPersonController>().CinemachineCameraTarget.transform.LookAt(blueHeadTransform); 
+        FindAnyObjectByType<FirstPersonController>().CinemachineCameraTarget.transform.localRotation = Quaternion.Euler(FindAnyObjectByType<FirstPersonController>().CinemachineCameraTarget.transform.localRotation.x, 0.0f, 0.0f);
+    }
 
 }
