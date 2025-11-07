@@ -39,10 +39,7 @@ public class QuestManager : MonoSingleton<QuestManager>
                 }
                 else
                 {
-                    if (quests[currentQuest].count >= quests[currentQuest].maxCount)
-                    {
-                        questText.text = $"{LocalizationManager.Instance.GetText("quest")}: {LocalizationManager.Instance.GetText(quests[currentQuest].questName)} ({quests[currentQuest].maxCount}/{quests[currentQuest].maxCount})";
-                    }
+                    questText.text = $"{LocalizationManager.Instance.GetText("quest")}: {LocalizationManager.Instance.GetText(quests[currentQuest].questName)} ({quests[currentQuest].maxCount}/{quests[currentQuest].maxCount})";
                 }
                 
                 questText.color = Color.white;

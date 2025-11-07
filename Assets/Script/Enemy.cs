@@ -72,7 +72,15 @@ public class Enemy : MonoBehaviour
             
             if (canSeePlayer)
             {
-                agent.SetDestination(playerTarget.position);
+                if (GameManager.Instance.playerTamge)
+                {
+                    agent.SetDestination(playerTarget.position);
+                }
+                else
+                {
+                    canSeePlayer = false;
+                }
+                
             }
             else
             {

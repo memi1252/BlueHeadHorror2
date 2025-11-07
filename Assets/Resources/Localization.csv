@@ -6,41 +6,46 @@ game_setting,설정,setting
 quest,퀘스트,Quest
 complete,완료,complete
 gameStart1,안내자: 파란 머리가 나온 꿈을 꾼지 10년이 지났다,Guide: It's been 10 years since I had the dream about blue hair.
-gameStart2,안내자: 열심히 일하고 난 후 지친 몸을 이끌고 ,"Guide: After working hard, I am tired and leading my body."
-gameStart3,안내자: 캠핑을 오게 됬다,Guide: We came to go camping.
-player1-1,플레이어: 어 뭐야?,"Player: Oh, what is it?"
-player1-2,플레이어: 고양이인가 그거 먹으면 안돼,Player: You can't eat that cat.
-player1-3,플레이어: 안되겠다 따라 가야겠어,"Player: No, I have to follow you."
-player2-1,"플레이어: 아니 너는,,,","Player: No, you..."
-player2-2,플레이어: 옛날에 꿈에서 봤던 그 괴물!!!,Player: That monster I saw in my dream a long time ago!!!
-player2-3,플레이어: 분명 꿈이였는데,Player: It was definitely a dream.
-player2-4,파란머리: 하하 그게 꿈인줄 알았나,"Blue Hair: Haha, did you think that was a dream?"
-player2-5,파란머리: 그때는 너에 대해 조사하기 위해서 꿈속으로 들어갔었지,"Blue Hair: That time, I went into a dream to investigate you."
+gameStart2,안내자: 한 여름 밤의 꿈이라고 생각해 금방 잊고 지내다,Guide: I thought it was a midsummer night's dream and quickly forgot about it.
+gameStart3,안내자: 힐링을 하기 위해 캠핑을 오게 되었다,Guide: I came camping to heal.
+player1-1,플레이어: 어 뭐야? 고양이인가?,"Player: Oh, what is it? Is it a cat?"
+player1-2,플레이어: 너 그거 먹으면 안돼!,Player: You can't eat that!
+player1-3,플레이어: 안되겠다 쫒아 가야겠어,Player: This won't work. I have to chase after them.
+player2-1,"플레이어: 아니 쟤는 설마....,,","Player: No, he couldn't possibly be....,,"
+player2-2,플레이어: 10년전 꿈에서 봤던 그 파란 머리!,Player: That blue hair I saw in my dream 10 years ago!
+player2-3,플레이어: 분명 꿈이였었는데,Player: It was definitely a dream
+player2-4,파란머리: 하하 그게 꿈인줄 알았Blue,Blue Hair: Haha I thought it was a dream
+player2-5,파란머리: 그때는 아직 힘이 부족해서 꿈에서 밖에 나타날 수 없었Blue,"Blue Hair: At that time, I was still lacking strength, so I could only appear in dreams."
 player2-6,플레이어: 뭐라고?,Player: What?
-player2-7,파란머리: 저번에는 조사를 위해 혼자 갔었지만 이번엔 친구들을 데리고 왔지,"Blue Hair: Last time I went alone to investigate, but this time I brought my friends."
-player2-8,파란머리: 넌 이제 곧 몸이 이 작은파란머리 처럼 작아질 것이다,Blue Hair: You will soon become as small as this little blue hair.
-player2-9,파란머리: 내 친구들을 피해 잘 살아보도록 그럼 이만 ^^,"Blue Hair: I'll try to avoid my friends and live well. Okay, that's all for now ^^"
-player2-10,플레이어: 안돼!!!,Player: No!!!
-player3-1,"플레이어: 아 내몸이 작아졌어,,,","Player: Ah, my body has gotten smaller,,,"
-player3-2,플레이어: 그 파란머리 녀석 내몸을 이렇게 만들다니...,Player: That blue-haired guy did this to my body...
-player3-3,플레이어: 내가 어떻게든 봉인 시킨다!!!,Player: I'll seal it somehow!!!
-player3-4,플레이어: 여기 주변에 분명 도움이 될만한게 있을꺼야,Player: There must be something around here that could help.
-player3-5,플레이어: 일단 길을 따라 가보자,Player: Let's just follow the road.
+player2-7,파란머리: 하지만 이번엔 이몸을 포함한 다른 동료들까지 힘을 되찾았Blue,"Blue Hair: But this time, even my other companions, including this one, regained their strength."
+player2-8,파란머리: 너의 몸은 이제 곧 이 작은파란머리 처럼 작아질Blue,Blue Hair: Your body will soon become as small as this little blue hair.
+player2-9,파란머리: 내 동료들을 피해 잘 살아남아보도록 그럼 이만Blue,"Blue Hair: I'll try to avoid my colleagues and survive. Okay, bye Blue."
+player2-10,플레이어: 뭐...! 그게 무슨! 안돼 잠깐..!,"Player: What...! What is that! No, wait...!"
+player3-1,"플레이어: 아 안돼... 내 몸이 작아졌어,,,",Player: Oh no... My body has shrunk...
+player3-2,플레이어: 그 파란 머리 내 몸을 이렇게 만들다니...,Player: That blue hair made my body like this...
+player3-3,플레이어: 그래도 꿈에서 처럼 분명 해결 방법이 있을거야,"Player: But, just like in a dream, there must be a solution."
+player3-4,플레이어: 여기 주변에 도움이 될 만한게 있는지 찾아봐야겠어,Player: I'll have to look around here to see if there's anything that might be helpful.
+player3-5,플레이어: 일단 길을 따라 가보자,Player: Let's just follow the path.
 player4-1,플레이어: 여기에 마을이 있네?,Player: Is there a village here?
-player4-2,플레이어: 저거 뭐야!,Player: What is that!
-player4-3,플레이어: 파란머리랑 비슷하게 생겼어,Player: Looks similar to the blue hair
-player4-4,플레이어: 아 분명 이 마을에 봉인방법이있을거 같은데,"Player: Ah, I'm sure there's a way to seal this town."
-player4-5,플레이어: 안 들키게 조심해야겠어!,Player: We have to be careful not to get caught!
+player4-2,플레이어: 저.. 저게 뭐야!,Player: What... is that!
+player4-3,플레이어: 익숙한 파란머리... 날 작아지게 만든 파란머리의 동료인가...,Player: Familiar blue hair... Is that the blue-haired companion who made me shrink?
+player4-4,플레이어: 그럼 이 마을에 무언가 있지 때문에 여기 있는거겠지?,Player: So you're here because there's something in this town?
+player4-5,플레이어: 안 들키게 조심히 둘러보자..!,Player: Let's look around carefully so we don't get caught..!
 player5-1,플레이어: 이 종이는 뭐지?,Player: What is this paper?
-player5-2,플레이어: 이 빨간 머리는 뭐지,Player: What is this red hair?
+player5-2,플레이어: 빨간 머리..? 빨간 머리를 4개 모아서..?,Player: Red hair..? Collect four red hairs..?
 player5-3,플레이어: 이거 혹시 파란 머리를 봉인 시킬수 있는 방법인가?,Player: Is this a way to seal blue hair?
 player5-4,플레이어: 이 종이가 여기에 있다면 재료도 근처에있을꺼야,"Player: If this paper is here, the materials should be nearby too."
 player5-5,플레이어: 어서 찾아 보자!!,Player: Let's go find it!!
-system1-1,시스템: 빨간 머리의 조각1을 획득했다!,System: You have acquired Red Head Piece 1!
-system1-2,시스템: 빨간 머리의 조각2을 획득했다!,System: You have acquired Red Hair Piece 2!
-system1-3,시스템: 빨간 머리의 조각3을 획득했다!,System: Obtained Red Head Fragment 3!
-system1-4,시스템: 빨간 머리의 조각4을 획득했다!,System: Obtained Red Head Piece 4!
-system2,플레이어: 아직은 마을에 들어갈수 없어,Player: You can't enter the village yet.
+player6-1,플레이어: 아니 저 작은블루헤드,"Player: No, that little blue head"
+player6-2,플레이어: 내 소세지를 훔쳐가더니 이 조각도 훔쳐가네 ,Player: You stole my sausage and now you're stealing this piece too.
+player6-3,플레이어: 거기 딱 기다려 내가 간다,"Player: Just wait there, I'll come."
+system1-1,시스템: 빨간 머리의 조각을 획득했다!,System: You have acquired a piece of red hair!
+system1-2,시스템: 빨간 머리의 조각을 획득했다!,System: You have acquired a piece of red hair!
+system1-3,시스템: 빨간 머리의 조각을 획득했다!,System: You have acquired a piece of red hair!
+system1-4,시스템: 빨간 머리의 조각을 획득했다!,System: You have acquired a piece of red hair!
+system2,플레이어: 아직은 마을에 들어갈 수 없어,Player: You can't enter the village yet.
+system1-5,시스템: 빨간 머리의 링을 획득했다!,System: You have acquired the red-haired ring!
+sausage,소세지,sausage
 eat,먹기,eating
 turn,뒤집기,Flip
 cheez_hamberger,치즈햄버거,Cheeseburger
@@ -54,7 +59,8 @@ redhead4,빨간머리4,Redhead 4
 door,문,door
 doorOpen,열기,opening
 doorClose,닫기,close
-quest1,"소세지,패티 굽기",Grilling sausages and patties
+redheadring,링,ring
+quest1,"소세지, 패티 굽기",Grilling sausages and patties
 quest2,정체를 알 수 없는 동물을 따라가기,Follow an unidentified animal
 quest3,길을 따라 걸어가기,Walk along the road
 quest4,마을 수색하기,Search the village
