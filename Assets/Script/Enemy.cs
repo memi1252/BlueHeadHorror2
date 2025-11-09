@@ -97,6 +97,7 @@ public class Enemy : MonoBehaviour
     IEnumerator PlayerDie()
     {
         playerDieEffect.SetActive(true);
+        GetComponent<AudioSource>().Play();
         GameManager.Instance.playerTransform.position = FindAnyObjectByType<RedheadVillageGate>().pos.position;
         GameManager.Instance.playerTransform.rotation = FindAnyObjectByType<RedheadVillageGate>().pos.localRotation;
         FindAnyObjectByType<FirstPersonController>().CinemachineCameraTarget.transform.localRotation = Quaternion.Euler(FindAnyObjectByType<RedheadVillageGate>().pos.localRotation.x, 0.0f, 0.0f);

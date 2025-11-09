@@ -21,12 +21,13 @@ public class Door : Item
     {
         if (isOpen)
         {
-            //에니메이션 재생
+            anim.SetTrigger("Close");
             isOpen = false;
             ItemAction = openkey;
         }
         else
         {
+            anim.SetTrigger("Open");
             isOpen = true;
             ItemAction = closekey;
         }

@@ -2353,7 +2353,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3365151518814080845, guid: 505bbaa8e62141a4fa45b71b546d892e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.18295684
+      value: -0.383
       objectReference: {fileID: 0}
     - target: {fileID: 3365151518814080845, guid: 505bbaa8e62141a4fa45b71b546d892e, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2361,23 +2361,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3365151518814080845, guid: 505bbaa8e62141a4fa45b71b546d892e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -6.38
+      value: -0.576
       objectReference: {fileID: 0}
     - target: {fileID: 3365151518814080845, guid: 505bbaa8e62141a4fa45b71b546d892e, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.004921675
       objectReference: {fileID: 0}
     - target: {fileID: 3365151518814080845, guid: 505bbaa8e62141a4fa45b71b546d892e, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.00000002185569
+      value: 1.0756907e-10
       objectReference: {fileID: 0}
     - target: {fileID: 3365151518814080845, guid: 505bbaa8e62141a4fa45b71b546d892e, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0.9999879
       objectReference: {fileID: 0}
     - target: {fileID: 3365151518814080845, guid: 505bbaa8e62141a4fa45b71b546d892e, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0.000000021855417
       objectReference: {fileID: 0}
     - target: {fileID: 3365151518814080845, guid: 505bbaa8e62141a4fa45b71b546d892e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2385,7 +2385,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3365151518814080845, guid: 505bbaa8e62141a4fa45b71b546d892e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 179.436
       objectReference: {fileID: 0}
     - target: {fileID: 3365151518814080845, guid: 505bbaa8e62141a4fa45b71b546d892e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -3001,6 +3001,30 @@ MonoBehaviour:
   ItemName: berger
   ItemAction: eat
   interactionFeedback: {fileID: 1864382102}
+--- !u!114 &169357921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cba17d399ab86974c8ef9551f6e8f8d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: GaiaCore::Gaia.NoiseSettings
+  transformSettings:
+    translation: {x: 500, y: 200, z: 350}
+    scale: {x: 4, y: 1, z: 4}
+    rotation: {x: 0, y: 0, z: 0}
+    flipScaleX: 0
+    flipScaleY: 0
+    flipScaleZ: 0
+  domainSettings:
+    noiseTypeName: Perlin
+    fractalTypeName: Fbm
+    noiseTypeParams: 
+    fractalTypeParams: '{"warpOffsets":{"x":0.0,"y":0.0,"z":0.0,"w":0.0},"octavesMinMax":{"x":0.0,"y":16.0},"amplitudeMinMax":{"x":0.0,"y":1.0},"frequencyMinMax":{"x":0.0,"y":2.0},"lacunarityMinMax":{"x":0.0,"y":4.0},"persistenceMinMax":{"x":0.0,"y":1.0},"warpIterationsMinMax":{"x":0.0,"y":8.0},"warpStrengthMinMax":{"x":-2.0,"y":2.0},"octaves":8.0,"amplitude":0.30000001192092898,"frequency":1.0,"persistence":0.5,"lacunarity":1.5,"warpIterations":0.0,"warpStrength":1.0,"warpEnabled":false,"warpExpanded":true}'
 --- !u!1 &175191291
 GameObject:
   m_ObjectHideFlags: 0
@@ -38747,7 +38771,7 @@ MonoBehaviour:
       m_warpIterations: 0
       m_warpStrength: 1
       m_warpOffset: {x: 0, y: 0, z: 0, w: 0}
-    m_noiseSettings: {fileID: 1219060300}
+    m_noiseSettings: {fileID: 169357921}
     m_noiseToolSettings:
       worldHeightRemap: {x: 0, y: 0}
       coordSpace: 0
@@ -73289,30 +73313,6 @@ MonoBehaviour:
     m_warpOffset: {x: 0, y: 0, z: 0, w: 0}
   m_inputTerrain: {fileID: 0}
   m_advancedInputSettingsUnfolded: 0
---- !u!114 &1219060300
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cba17d399ab86974c8ef9551f6e8f8d4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: GaiaCore::Gaia.NoiseSettings
-  transformSettings:
-    translation: {x: 500, y: 200, z: 350}
-    scale: {x: 4, y: 1, z: 4}
-    rotation: {x: 0, y: 0, z: 0}
-    flipScaleX: 0
-    flipScaleY: 0
-    flipScaleZ: 0
-  domainSettings:
-    noiseTypeName: Perlin
-    fractalTypeName: Fbm
-    noiseTypeParams: 
-    fractalTypeParams: '{"warpOffsets":{"x":0.0,"y":0.0,"z":0.0,"w":0.0},"octavesMinMax":{"x":0.0,"y":16.0},"amplitudeMinMax":{"x":0.0,"y":1.0},"frequencyMinMax":{"x":0.0,"y":2.0},"lacunarityMinMax":{"x":0.0,"y":4.0},"persistenceMinMax":{"x":0.0,"y":1.0},"warpIterationsMinMax":{"x":0.0,"y":8.0},"warpStrengthMinMax":{"x":-2.0,"y":2.0},"octaves":8.0,"amplitude":0.30000001192092898,"frequency":1.0,"persistence":0.5,"lacunarity":1.5,"warpIterations":0.0,"warpStrength":1.0,"warpEnabled":false,"warpExpanded":true}'
 --- !u!4 &1227192701 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 8f3d2e273b446a44494f0c799f375da4, type: 3}
@@ -75527,6 +75527,7 @@ GameObject:
   - component: {fileID: 1321909149}
   - component: {fileID: 1321909148}
   - component: {fileID: 1321909147}
+  - component: {fileID: 1321909150}
   m_Layer: 0
   m_Name: StandBlueHead
   m_TagString: Untagged
@@ -75654,6 +75655,103 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 3
+--- !u!82 &1321909150
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1321909144}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 8300000, guid: aaa89a76c9bdbbc4d8ca0ac97bdc1c87, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!114 &1324577060
 MonoBehaviour:
   m_ObjectHideFlags: 0

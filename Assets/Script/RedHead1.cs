@@ -24,6 +24,7 @@ public class RedHead1 : Item
         {
             Line();
             QuestManager.Instance.CompleteQuest();
+            Destroy(gameObject);
         }
     }
     
