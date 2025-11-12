@@ -5,6 +5,8 @@ public class MainMenuUI : MonoBehaviour
 {
     public void GameStart()
     {
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
         SceneManager.LoadScene("Game");
     }
     

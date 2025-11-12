@@ -12,6 +12,7 @@ public class ReaHeadScroll : Item
     {
         UIManager.Instance.reaHeadScrollUI.Show();
         QuestManager.Instance.CompleteQuest();
+        UIManager.Instance.wayPointUI.isActive = false;
         gameObject.SetActive(false);
     }
 }

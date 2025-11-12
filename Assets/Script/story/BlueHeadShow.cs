@@ -11,7 +11,7 @@ public class BlueHeadShow : MonoBehaviour
     public GameObject blueHead;
     public GameObject mineBlueHead;
     public Transform miniBlueHead;
-    public ParticleSystem blueHeadEffect;
+    public GameObject blueHeadEffect;
     public float range;
 
     private void Start()
@@ -77,7 +77,7 @@ public class BlueHeadShow : MonoBehaviour
     
     IEnumerator SmallPlayer()
     {
-        blueHeadEffect.Play();
+        blueHeadEffect.SetActive(true);
         Vector3 originalScale = player.transform.localScale;
         Vector3 targetScale = originalScale * scale;
         float duration = 3.0f; // 애니메이션 지속 시간
@@ -90,6 +90,7 @@ public class BlueHeadShow : MonoBehaviour
             yield return null;
         }
         player.transform.localScale = targetScale;
+        blueHeadEffect.SetActive(false);
         yield return new WaitForSeconds(0.8f);
         PlayerLine.Instance.Line1();
     }
