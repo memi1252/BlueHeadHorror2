@@ -278,7 +278,7 @@ GameObject:
   - component: {fileID: 5963352636824215017}
   - component: {fileID: 5089308243477033687}
   m_Layer: 0
-  m_Name: redHeadHorrer
+  m_Name: redHeadHorrer 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
