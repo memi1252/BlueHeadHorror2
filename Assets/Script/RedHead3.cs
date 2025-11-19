@@ -13,6 +13,7 @@ public class RedHead3 : Item
     {
         Line();
         QuestManager.Instance.CompleteQuest();
+        GameManager.Instance.pickupSound.Play();
         Destroy(gameObject);
     }
     

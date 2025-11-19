@@ -7,9 +7,9 @@ public class MainMenuUI : MonoBehaviour
     {
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
-        SceneManager.LoadScene("Game");
+        LoadingBar.LoadScene("Game");
     }
-    
+
     public void GameQuit()
     {
         #if UNITY_EDITOR

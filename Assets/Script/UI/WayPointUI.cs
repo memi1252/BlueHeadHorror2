@@ -13,42 +13,78 @@ public class WayPointUI : MonoBehaviour
     public bool isActive = false;
     public Vector3 offset;
 
-    private void Update()
+   private void Update()
     {
         img.gameObject.SetActive(isActive);
-        if(target == null) return;
-        float minX = img.GetPixelAdjustedRect().width / 2;
-        float maxX = Screen.width - minX;
+        if(target == null || Camera.main == null) return;
         
-        float minY = img.GetPixelAdjustedRect().height / 2;
-        float maxY = Screen.height - minY;
+        // 화면 경계값을 이미지 크기의 절반으로 설정
+        float halfImgWidth = img.GetPixelAdjustedRect().width / 2f;
+        float halfImgHeight = img.GetPixelAdjustedRect().height / 2f;
         
-        if(Camera.main == null) return;
-        Vector2 pos = Camera.main.WorldToScreenPoint(target.position + offset);
+        float minX = halfImgWidth;
+        float maxX = Screen.width - halfImgWidth;
+        float minY = halfImgHeight;
+        float maxY = Screen.height - halfImgHeight;
 
-        if (Vector3.Dot((target.position - transform.position), Vector3.forward) < 0)
+        // 타겟의 월드 좌표를 스크린 좌표로 변환
+        Vector3 targetWorldPos = target.position + offset;
+        Vector3 screenPos = Camera.main.WorldToScreenPoint(targetWorldPos);
+
+        // 타겟이 카메라 뒤에 있는지 확인
+        bool isTargetBehind = screenPos.z < 0;
+        
+        if (isTargetBehind)
         {
-            if (pos.x < Screen.width / 2)
+            // 카메라에서 타겟으로의 방향 벡터 계산
+            Vector3 directionToTarget = (targetWorldPos - Camera.main.transform.position).normalized;
+            
+            // 카메라의 로컬 좌표계로 방향 변환
+            Vector3 localDirection = Camera.main.transform.InverseTransformDirection(directionToTarget);
+            
+            // 방향에 따라 화면 가장자리에 배치
+            if (localDirection.x > 0)
             {
-                pos.x = maxX;
+                screenPos.x = maxX; // 오른쪽 가장자리
             }
             else
             {
-                pos.x = minX;
+                screenPos.x = minX; // 왼쪽 가장자리
             }
+            
+            if (localDirection.y > 0)
+            {
+                screenPos.y = maxY; // 위쪽 가장자리
+            }
+            else
+            {
+                screenPos.y = minY; // 아래쪽 가장자리
+            }
+            
+            // z값을 양수로 설정
+            screenPos.z = 1f;
         }
-        
-        pos.x = Mathf.Clamp(pos.x, minX, maxX);
-        pos.y = Mathf.Clamp(pos.y, minY, maxY);
-        img.transform.position = pos;
-        distance = Vector3.Distance(GameManager.Instance.playerTransform.position, target.position);
-        text.text = $"{(int)distance}m";
 
+        // 화면 경계 안으로 클램프
+        screenPos.x = Mathf.Clamp(screenPos.x, minX, maxX);
+        screenPos.y = Mathf.Clamp(screenPos.y, minY, maxY);
+        
+        img.transform.position = screenPos;
+        
+        // 플레이어와 타겟 사이의 거리 계산
+        if (GameManager.Instance != null && GameManager.Instance.playerObject != null)
+        {
+            Vector3 playerPosition = GameManager.Instance.playerObject.transform.position;
+                
+            distance = Vector3.Distance(playerPosition, target.position);
+            text.text = $"{(int)distance}m";
+        }
+
+        // 거리에 따른 스케일과 투명도 조정
         if (distance < 5f)
         {
             img.transform.localScale = Vector3.one * 0.5f;
             img.color = new Color(1f, 1f, 1f, 0.5f);
-            
         }
         else
         {

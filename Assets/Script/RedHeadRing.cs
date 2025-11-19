@@ -13,6 +13,8 @@ public class RedHeadRing : Item
     {
         Line();
         QuestManager.Instance.CompleteQuest();
+        GameManager.Instance.pickupSound.Play();
+        Destroy(gameObject);
     }
     
     public void Line()

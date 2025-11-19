@@ -104,6 +104,10 @@ public class Enemy : MonoBehaviour
         yield return new WaitForSeconds(5f);
         playerDieEffect.SetActive(false);
         playerDie = false;
+        foreach (var UI in UIManager.Instance.PlayerDieUIs)
+        {
+            UI.SetActive(true);
+        }
         GameManager.Instance.playerMove = true;
         GameManager.Instance.playerCamera = true;
     }

@@ -39,7 +39,7 @@ public class QuestManager : MonoSingleton<QuestManager>
                 }
                 else
                 {
-                    questText.text = $"{LocalizationManager.Instance.GetText("quest")}: {LocalizationManager.Instance.GetText(quests[currentQuest].questName)} ({quests[currentQuest].maxCount}/{quests[currentQuest].maxCount})";
+                    questText.text = $"{LocalizationManager.Instance.GetText("quest")}: {LocalizationManager.Instance.GetText(quests[currentQuest].questName)} ({quests[currentQuest].count}/{quests[currentQuest].maxCount})";
                 }
                 
                 questText.color = Color.white;
@@ -70,6 +70,11 @@ public class QuestManager : MonoSingleton<QuestManager>
         LocalizationManager.Instance.OnLanguageChanged -= InstanceOnOnLanguageChanged;
         isComplete = false;
         currentQuest++;
+        if (currentQuest == 5)
+        { 
+            UIManager.Instance.wayPointUI.isActive = true;
+            GameManager.Instance.ddd.SetActive(true);
+        }
     }
 
     private void InstanceOnOnLanguageChanged()
