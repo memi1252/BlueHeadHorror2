@@ -7,9 +7,11 @@ public class Door : Item
     public bool isOpen;
     public string openkey;
     public string closekey;
+    private AudioSource source;
     private void Awake()
     {
         anim = GetComponent<Animator>();
+        source = GetComponent<AudioSource>();
     }
 
     private void Start()
@@ -19,6 +21,7 @@ public class Door : Item
 
     private void OnItemUse()
     {
+        source.Play();
         if (isOpen)
         {
             anim.SetTrigger("Close");
