@@ -42,9 +42,9 @@ player5-5,플레이어: 어서 둘러봐야겠어,Player: I guess I'll have to t
 player6-1,플레이어: 아니 저 작은파란머리,"Player: No, that little blue hair"
 player6-2,플레이어: 내 소세지를 훔쳐가더니 이 조각도 훔쳐가다니,"Player: You stole my sausage, and now you're stealing this piece too!"
 player6-3,플레이어: 거기 딱 기다려 내가 간다,"Player: Just wait there, I'll come."
-player7-1,플레이어: 이제 이 길을 따라 가면 되겠지?,"Player: Now, should we follow this path?"
-player7-2,플레이어: 파란머리들이 쫒아오기전에 도망가자!,Player: Let's run away before the blue-haired ones chase us!
-player8-1,파란머리들: 안돼 거기서!!!!!,Blue Haired: No there!!!!!
+player7-1,플레이어: 이제 이 길을 따라가면 되겠지?,"Player: Now, should we follow this path?"
+player7-2,플레이어: 파란 머리들이 쫓아오기 전에 도망가자!,Player: Let's run away before the blue-haired ones chase after us!
+player8-1,파란 머리들: 안돼 거기 서!!!!!,"Blue Haired: No, stand there!!!!!"
 system1-1,시스템: 빨간 머리의 조각을 획득했다!,System: You have acquired a piece of red hair!
 system1-2,시스템: 빨간 머리의 조각을 획득했다!,System: You have acquired a piece of red hair!
 system1-3,시스템: 빨간 머리의 조각을 획득했다!,System: You have acquired a piece of red hair!
@@ -74,3 +74,4 @@ quest4,마을 수색하기,Search the village
 quest5,재료 아이템 찾기,Find material items
 quest6,마을 나가기,Leave town
 quest7,길을따라 가서 봉인시키기,Follow the path and seal it
+quest8,파란머리들을 피해 도망가서 봉인시키기!!!!,Run away from the blue hairs and seal them!!!!
