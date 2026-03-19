@@ -125,7 +125,7 @@ Google Sheets 작성 → CSV 공유 링크 발급
 | 김도영 | Localization 시스템, Quest 시스템, WayPoint UI 개발 |
 | 신주혁 | 몬스터 모델링 및 아이템 모델링 |
 | 나은유 | 기획 및 2D아트 |
-| 성현원 | 엔딩 구현 |
+| 성현원 | 엔딩 및 파티클 시스템 구현 |
 
 <br>
 
